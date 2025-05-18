@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+
+.homePageStatmentTitle {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  color: #f28c8c;
+  font-size: 300%;
+  text-align: center;
+}
+
+.statment {
+  padding-top: 2rem;
+  width: 30%;
+  font-size: 150%;
+}
+
+.slogan {
+  padding-top: 2rem;
+  width: 25%;
+  font-size: 150%;
+}
+
+.contacts {
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.button {
+  background-color: #570000;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: white 4px solid;
+  font-size: 120%;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: white;
+  font-weight: bold;
+  color: #570000;
+  transition: 200ms;
+  border: #570000 4px solid;
+}
+
+@media (max-width: 768px) {
+  .homePageStatmentTitle {
+    font-size: 200%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .statment,
+  .slogan {
+    padding-top: 3%;
+    text-align: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+
+  .button {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    align-self: center;
+  }
+
+  .contacts {
+    padding-bottom: 40px;
+  }
+}

@@ -1,0 +1,52 @@
+:host {
+  margin-top: auto;
+}
+
+.footerContainer {
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+  margin-bottom: 2%;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.download {
+  gap: 20px;
+}
+
+.follow-us {
+  align-items: center;
+  font-size: 150%;
+  font-weight: bold;
+  gap: 10px;
+}
+
+.icons {
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+  }
+
+  .download {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .follow-us {
+    font-size: 120%;
+    gap: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .icons {
+    gap: 10px;
+  }
+}
