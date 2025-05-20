@@ -6,9 +6,9 @@ import { TermsAndConditionsComponent } from './pages/terms-and-conditions/terms-
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: '**', redirectTo: 'home' },
   { path: 'home', component: HomeComponent },
   { path: 'faq', component: FrequentlyAskedQuestionsComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
   { path: 'terms-and-conditions', component: TermsAndConditionsComponent },
+  { path: '**', redirectTo: 'home' },
 ];
