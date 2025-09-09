@@ -11,19 +11,20 @@ import { Router } from '@angular/router';
 export class HeaderComponent {
   constructor(private router: Router) {}
 
-  public onClickHome() {
-    this.router.navigate(['/home']); // Adjust the route as per your application's routing configuration
+
+  public onClickTwitter() {
+    this.router.navigateByUrl('TODO');
   }
 
-  public onClickFrequentlyAskedQuestions() {
-    this.router.navigate(['/faq']);
+  public onClickInstagram() {
+    this.router.navigateByUrl('TODO');
   }
 
-  public onClickPrivacyPolicy() {
-    this.router.navigate(['/privacy-policy']);
+  public onClickTikTok() {
+    this.router.navigateByUrl('TODO');
   }
 
-  public onClickTermsAndConditions() {
-    this.router.navigate(['/terms-and-conditions']);
+  public navigateToHomePage() {
+    this.router.navigate(['/home']);
   }
 }

@@ -1,17 +1,17 @@
-<div class="headerContainer">
-  <div class="logo">
-    <img src="/assets/images/logo.png" alt="Cruiz logo" height="100px" />
-  </div>
-  <div class="navigation">
-    <div class="navigation-link" (click)="onClickHome()">Home</div>
-    <div class="navigation-link" (click)="onClickFrequentlyAskedQuestions()">
-      FAQs
-    </div>
-    <div class="navigation-link" (click)="onClickPrivacyPolicy()">
-      Privacy Policy
-    </div>
-    <div class="navigation-link" (click)="onClickTermsAndConditions()">
-      Terms & Conditions
-    </div>
-  </div>
-</div>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="logo" (click)="navigateToHomePage()">Cruiz</div>
+        <div class="social-links">
+          <a (click)="onClickTwitter()" aria-label="Twitter" target="_blank">
+            <img src="assets/images/twitter-x.svg" alt="witter"/>
+          </a>
+          <a (click)="onClickInstagram()" aria-label="Instagram" target="_blank">
+            <img src="assets/images/instagram.svg" alt="Instagram" />
+          </a>
+          <a (click)="onClickTikTok()" aria-label="TikTok" target="_blank">
+            <img src="assets/images/tiktok.svg" alt="TikTok" />
+          </a>
+        </div>
+      </nav>
+    </header>
