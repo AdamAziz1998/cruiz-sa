@@ -66,3 +66,13 @@ nav {
   display: block;
   filter: brightness(0) invert(1);
 }
+
+.circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--burgundy-light);
+  position: relative;
+  bottom: 39px;
+  left: 45.8px
+}
