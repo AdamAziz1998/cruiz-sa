@@ -134,7 +134,8 @@
 }
 
 .hero-stats {
-	display: grid;
+	display: none;
+	// display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 	gap: 2rem;
 	max-width: 800px;
@@ -363,4 +364,10 @@
 .email-us {
 	height: 20px;
 	width: 20px;
+}
+
+@media (max-width: 768px) {
+	.hero {
+		margin-top: 150px;
+	}
 }
