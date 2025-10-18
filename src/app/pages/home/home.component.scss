@@ -262,7 +262,6 @@
 
 .feature {
 	display: flex;
-	align-items: center;
 	gap: 1rem;
 	padding: 1.5rem;
 	background: #1a1a1a;
@@ -279,19 +278,17 @@
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
 }
 
-.feature-icon {
-	font-size: 2rem;
-}
-
 .feature-text {
 	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .feature-text h4 {
 	text-align: center;
 	font-size: 1.1rem;
-	margin-bottom: 0.25rem;
 	color: var(--white);
+	margin-bottom: 5px;
 }
 
 .feature-text p {
@@ -302,6 +299,14 @@
 
 .feature:hover .feature-text p {
 	color: rgba(255, 255, 255, 0.9);
+}
+
+.feature-image {
+	width: 30px;
+	height: 30px;
+	margin-bottom: 20px;
+	justify-self: center;
+	align-self: center;
 }
 
 /* CTA Section */
