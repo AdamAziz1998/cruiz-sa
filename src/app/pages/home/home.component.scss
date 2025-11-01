@@ -120,7 +120,9 @@
 	font-weight: 600;
 	transition: all 0.3s ease;
 	border: 2px solid var(--burgundy);
-	width: 210px;
+	// width: 210px; TODO: Return to this size
+	width: 220px;
+
 }
 
 .app-btn:hover {
@@ -370,10 +372,4 @@
 .email-us {
 	height: 20px;
 	width: 20px;
-}
-
-@media (max-width: 768px) {
-	.hero {
-		margin-top: 150px;
-	}
 }
