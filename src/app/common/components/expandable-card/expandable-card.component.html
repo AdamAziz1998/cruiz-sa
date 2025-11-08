@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="card-header" (click)="toggle()">
+    <span class="title">{{ title }}</span>
+    <span class="icon-container">
+      @if (!isOpen) {
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+        </svg>
+      } @else {
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
+        </svg>
+      }
+    </span>
+  </div>
+  <div
+    #content
+    class="card-content"
+    [style.height]="isOpen ? this.heightSet + 'px' : '0px'"
+    [style.opacity]="isOpen ? 1 : 0"
+    [style.padding]="isOpen ? '16px' : '0 16px'"
+  >
+    <ng-content></ng-content>
+  </div>
+</div>

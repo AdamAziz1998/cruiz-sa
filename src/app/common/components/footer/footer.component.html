@@ -8,7 +8,7 @@
 			<div class="footer-section">
 				<h3>Legal</h3>
 				<ul class="footer-links">
-					<li><a (click)="navigateToFaq()">Cancelation Policy </a></li>
+					<li><a (click)="navigateToFaq()">Cancellation Policy </a></li>
 					<li><a (click)="navigateToTermsAndConditions()">Terms & Conditions</a></li>
 					<li><a (click)="navigateToPrivacyPolicy()">Privacy Policy</a></li>
 				</ul>
@@ -24,8 +24,8 @@
 		<div class="footer-section social-footer-section">
 			<h3>Follow us</h3>
 			<div class="social-links">
-				<a routerLink="/faq" aria-label="Twitter" target="_blank">
-					<img src="assets/images/twitter-x.svg" alt="witter"/>
+				<a (click)="onClickTwitter()" aria-label="Twitter" target="_blank">
+					<img src="assets/images/twitter-x.svg" alt="Twitter"/>
 				</a>
 				<a (click)="onClickInstagram()" aria-label="Instagram" target="_blank">
 					<img src="assets/images/instagram.svg" alt="Instagram" />

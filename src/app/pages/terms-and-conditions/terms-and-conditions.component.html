@@ -1,7 +1,516 @@
 <app-page-template>
-  <app-white-page-body>
-    <div class="coming-soon">
-      <div>Coming soon!</div>
-    </div>
-  </app-white-page-body>
+  <div class="container">
+    <div class="header">Terms & Conditions</div>
+    <app-expandable-card [title]="'Preamble'">
+      <p>
+        The Cruiz platform strives to deliver its services at the highest quality levels and to provide full
+        support to its customers to ensure a unique and distinguished user experience. Pursuant to this
+        commitment, we present to you the terms and conditions governing the use of the
+        application/website.
+      </p>
+      <p>
+        Using this application/website constitutes express acceptance of all the provisions and
+        conditions contained in this document. If you do not agree to any of these conditions, please
+        refrain from using the application/website.
+      </p>
+      <p>  
+        For the purposes of these terms and conditions, the following terms have the meanings
+        indicated next to each of them unless the context requires otherwise:
+      </p>
+      <ul>
+        <li>
+          <b>Platform / Cruiz / We:</b> refers to the Cruiz platform as the owner and operator of the application
+          and website and the related services.
+        </li>
+        <li>
+          <b>User / you / users:</b> any natural or legal person who uses the application and/or website to list
+          vehicles for rent, rent them, or browse the content.
+        </li>
+        <li>
+          <b>Lessor / host:</b> the individual or company who registers a vehicle on the platform and offers it for
+          rent, and is responsible for providing it at the agreed time and condition, while complying with
+          all approved terms and policies.
+        </li>
+        <li>
+          <b>Renter / guest:</b> the individual or entity that books a vehicle through the platform and uses it
+          during the agreed period, abiding by the applicable terms and policies.
+        </li>
+        <li>
+          <b>Booking:</b> the process by which the renter selects an available vehicle for rent via the platform,
+          pays the due amount, and receives confirmation from the lessor.
+        </li>
+        <li>
+          <b>Platform policies:</b> all policies announced by Cruiz, including the privacy policy, the cancellation
+          and refund policy, and any other policies related to the services.
+        </li>
+        <li>
+          <b>Vehicle / car:</b> any car listed on the platform by the lessor for rental to the renter, in accordance
+          with the regulations in the Kingdom of Saudi Arabia and the rules of the Cruiz platform.
+        </li>
+      </ul>
+    </app-expandable-card>
+    <app-expandable-card [title]="'General Acknowledgments'">
+      <p>
+        By using the application and/or the website, you acknowledge and agree to:
+      </p>
+      <ol>
+        <li>
+          That you have read, understood, and agreed to comply with all the terms and conditions
+          stated in this document and any subsequent updates.
+        </li>
+        <li>
+          That you have full legal capacity to use the application and/or website and to enter into
+          contracts and obligations under the regulations in force in the Kingdom of Saudi Arabia.
+        </li>
+        <li>
+          That you will use the platform only for legitimate purposes and not in violation of any
+          law, regulation, or effective decision.
+        </li>
+        <li>
+          That you will not misuse the platform in any way, including but not limited to using
+          misleading information, violating traffic regulations, damaging rented vehicles, or
+          mistreating other users.
+        </li>
+        <li>
+          That you agree to the Privacy Policy, the Cancellation and Refund Policy, and any other
+          policies adopted by the Cruiz platform within its services. These policies form an integral
+          part of the terms of use and are binding upon you when using the platform.
+        </li>
+        <li>
+          That the Cruiz platform reserves the right to modify or update the terms and conditions
+          at any time and will notify you via communication channels or within the application.
+          Continuing to use the platform after modifications constitutes implicit acceptance of
+          them.
+        </li>
+        <li>
+          That all contracts and understandings executed via the application or website are
+          considered electronically signed, and both the lessor and the renter ensure their validity
+          and consider them legally binding.
+        </li>
+        <li>
+          That Cruiz does not guarantee the safety of the vehicle or that it is free from damage;
+          the company's role is limited to acting as an intermediary only, without any
+          responsibility towards either the lessor or the renter.
+        </li>
+      </ol>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Creating an Account'">
+      <ul>
+        <li>
+          <b>Registration requirements:</b> To use the services of the Cruiz platform, the user must
+          create a personal account through the application or the website and provide accurate
+          and complete information, including, for example: full name, mobile number, and email.
+        </li>
+        <li>
+          <b>Eligibility for registration:</b> The user confirms that:
+          <ol>
+            <li>
+              They are 21 years of age or older.
+            </li>
+            <li>
+              They have full legal capacity to enter into contracts under the regulations in force
+              in the Kingdom of Saudi Arabia.
+            </li>
+            <li>
+              They are not legally prohibited from using or dealing with the platform.
+            </li>
+          </ol>
+        </li>
+        <li>
+          <b>Accuracy of information:</b> The user commits to maintaining the accuracy and correctness
+          of the information provided during registration and to update it immediately upon any
+          change. The platform has the right to suspend or terminate the account if it finds any
+          inaccurate or misleading information.
+        </li>
+        <li>
+          Users must update their data and documents continuously. If any document expires such
+          as a driver's license, the account will be temporarily suspended until a new valid copy is
+          provided.
+        </li>
+      </ul>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Using the Application'">
+      <ol>
+        <li class="header-ol">
+          <div class="section-header">
+            Use by the Lessor (Host)
+          </div>
+          <p class="medium-font-size">
+            When listing a vehicle on the platform, the lessor must provide the following data and
+            documents:
+          </p>
+          <ul class="medium-font-size imbedded-ul">
+            <li>
+              <b>Vehicle details:</b> make, manufacturer, model, year of manufacture, number of seats,
+              color, transmission type, vehicle features, and insurance information.
+            </li>
+            <li>
+              <b>Rental details:</b> specify the car pick-up location, whether delivery is offered, allowed
+              mileage, daily rental price, period allowed for cancellation without fees, and discount
+              rate for weekly or monthly bookings.
+            </li>
+            <li>
+              <b>Vehicle photos:</b> a main display photo, a front photo, a right-side photo, a rear photo, a
+              left-side photo, a photo of the front seats, a photo of the back seats, and up to three
+              optional additional photos.
+            </li>
+            <li>
+              <b>Damage declaration:</b> state whether the vehicle has any damage (yes/no). If there is
+              minor damage that does not affect performance, the lessor must mention it when listing
+              the vehicle and attach a photo of the damage.
+            </li>
+            <li>
+              <b>Required documents:</b> vehicle registration (proof of ownership), periodic technical
+              inspection certificate if the car is more than three years old, and the vehicle insurance
+              certificate.
+            </li>
+          </ul>
+        </li>
+        <li class="header-ol margin-top-40">
+          <div class="section-header">
+            Use by the Renter
+          </div>
+          <p class="medium-font-size">
+            When using the application or website, the renter must provide the following data and
+            documents depending on their status:
+          </p>
+          <ul class="medium-font-size imbedded-ul">
+            <li>
+              <b>For Saudi citizens and residents:</b> name as on the national ID or residence card, date of
+              birth, ID or residence number, a copy of the ID or residence permit, a valid driver's
+              licence, and a personal photo.
+            </li>
+            <li>
+              <b>For foreigners (non-residents):</b> name as on the passport, date of birth, passport number,
+              a valid passport, a valid international driver's licence, and a personal photo.s  
+            </li>
+          </ul>
+          <p class="medium-font-size margin-top margin-bottom">
+            Vehicle selection: The renter browses the vehicles listed on the application or website and
+            chooses a suitable vehicle based on the type and specifications, the number of rental days
+            required, and the vehicle's location.
+          </p>
+        </li>
+        <li class="header-ol margin-top-40">
+          <div class="section-header">
+            Pick-Up and Delivery
+          </div>
+          <ul class="medium-font-size imbedded-ul">
+            <li>
+              <b>Before delivery:</b> The lessor must take recent and clear photos of the vehicle from all
+              sides (other than the photos attached in the listing), include photos showing the
+              odometer reading and fuel level (fuel must be full), ensure that the vehicle is clean and
+              fit for use and has undergone necessary maintenance, and arrive at the time and place
+              specified in the booking.
+            </li>
+            <li>
+              <b>At pick-up:</b> The renter must arrive at the time and place specified, take photos of the
+              vehicle from all sides before receiving it—including the odometer and fuel level. The
+              renter's acceptance of the vehicle constitutes an explicit acknowledgment that it is in
+              good condition and free of damages not mentioned by the lessor.
+            </li>
+            <li>
+              <b>At return:</b> The renter must return the vehicle at the specified time and place, pay any
+              delay fees via the platform if the return time exceeds the schedule, return the vehicle
+              with the same fuel level and technical condition as at pick-up, and take photos of the
+              vehicle at return showing the odometer and fuel level.
+            </li>
+            <li>
+              <b>After return:</b> The lessor must photograph the vehicle immediately upon receiving it via
+              the application, showing any damages, additional mileage, or fuel shortage if any. No
+              claim of damage or violations is accepted after completion of delivery and closing the
+              order unless documented at this stage. The lessor's acceptance of the vehicle from the
+              renter without reservation constitutes an explicit acknowledgment that the vehicle is in
+              good condition and free from damages.
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Penalties and Additional Fees'">
+      <p>
+        Penalties and additional fees apply when the renter or lessor breaches their obligations as
+        outlined in the usage mechanism.
+      </p>
+
+      <ol>
+        <li class="header-ol">
+          <div class="section-header">
+            Penalties for the Renter
+          </div>
+          <ul class="medium-font-size imbedded-ul">
+            <li>
+              <b>
+                Late arrival for pick-up:
+              </b>
+              <ul class="imbedded-imbedded-ul">
+                <li>
+                  A grace period of 30 minutes is allowed beyond the scheduled pick-up time.
+                </li>
+                <li>
+                  After the grace period, the lessor may impose a delay fee per hour; these fees must not
+                  exceed half the daily rental value if the vehicle is picked up later the same day.
+                </li>
+                <li>
+                  If the delay exceeds two hours, the lessor may cancel the booking and calculate the
+                  cancellation fee according to the announced cancellation policy.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <b>
+                Late return of the vehicle:
+              </b>
+              <ul class="imbedded-imbedded-ul">
+                <li>
+                  The renter must return the vehicle on time; a 30-minute grace period is allowed.
+                </li>
+                <li>
+                  After the grace period, a delay fee is charged per hour, and a full extra day is charged if
+                  the delay exceeds two hours.
+                </li>
+                <li>
+                  If the delay exceeds two hours, the case is considered a severe delay. The lessor or the
+                  platform may notify the authorities to recover the vehicle, and the renter bears all fees,
+                  fines, and compensation resulting from the delay. The rent for any extra day is charged
+                  at double the agreed daily rate in addition to any other fees according to the platform
+                  policy.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <b>
+                Other penalties:
+              </b>
+              <ul class="imbedded-imbedded-ul">
+                <li>
+                  If the renter exceeds the allowed mileage, excess kilometer fees apply: SAR 1 per extra
+                  kilometer for the first 0-100 km; SAR 2 per kilometer for more than 100 km.
+                </li>
+                <li>
+                  If the renter returns the vehicle with less fuel than at pick-up, a SAR 100 penalty is
+                  applied.
+                </li>
+              </ul>
+            </li>
+          </ul> 
+        </li>
+        <li class="header-ol">
+          <div class="section-header">
+            Penalties for the Lessor
+          </div>
+          <ul class="imbedded-ul medium-font-size">
+            <li>
+              <b>
+                Late delivery to the renter:
+              </b>
+              <ul class="imbedded-imbedded-ul">
+                <li>
+                  A 30-minute grace period is allowed. After that, the renter may request a discount equal
+                  to 10 % of the daily rental value for each hour of delay, up to a maximum of half the
+                  daily rental value if the car is delivered on the same day.
+                </li>
+                <li>
+                  If the delay exceeds two hours, the renter may cancel the booking and receive a full
+                  refund, and the platform may collect a SAR 1,000 fine from the lessor for breaching their
+                  obligations.
+                </li>
+                <li>
+                  The lessor must deliver the vehicle in good, usable condition free of defects that affect
+                  safety. If the vehicle is delivered in a condition not matching the agreed specifications or
+                  with defects affecting use, the renter may cancel the booking and receive a full refund,
+                  and the platform may collect a SAR 1,000 fine from the lessor.
+                </li>
+              </ul>
+            </li>
+            <li class="margin-bottom-20">
+              <b>
+                Late pick-up by the lessor:
+              </b>
+              <p>
+                A 30-minute grace period is allowed to collect the car at the end of the rental; after that, the
+                renter may request a discount equal to 10 % of the daily rental value per hour, up to a
+                maximum of half the daily rental value if the vehicle is collected the same day.
+              </p>
+            </li>
+          </ul>
+        </li>
+        <li class="header-ol margin-top">
+          <div class="section-header">
+            General Provisions
+          </div>
+          <ul class="medium-font-size imbedded-ul">
+            <li>
+              Penalties and fees are automatically deducted from amounts due to the breaching party
+              or collected through the approved payment methods on the platform. If unpaid, the
+              platform may pursue collection through the judicial authorities in Saudi Arabia.
+            </li>
+            <li>
+              No penalties or additional fees are waived.
+            </li>
+            <li>
+              The platform may update the penalty and fee schedule at any time, with users notified
+              via the application or website.
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Booking and Payment Terms'">
+      <ol>
+        <li>
+          <b>Booking mechanism:</b> Users can view available vehicles and book them for suitable dates
+          and options. Booking is confirmed only after the lessor accepts and the renter completes
+          payment via the approved payment methods.
+        </li>
+        <li>
+          <b>Payment:</b> The amount due is collected in advance via electronic payment methods. The
+          amount paid includes the rental value, platform commission, value-added tax, and any
+          additional fees specified by the lessor (such as delivery service).
+        </li>
+        <li>
+          <b>Platform commission:</b> The Cruiz platform charges a fixed commission of 15 % on each
+          successful booking, automatically deducted from the paid amount. The remaining
+          amount is transferred to the lessor's account on the first day of the following month for
+          rentals completed in the previous month. The platform may delay the transfer in case of
+          a dispute or request for clarification. The platform provides detailed reports showing the
+          booking, collected amounts, and deducted commission.
+        </li>
+        <li>
+          <b>Booking confirmation and communication:</b> Electronic booking confirmation via the
+          application constitutes a binding contract between the lessor and the renter.
+          Communication between the parties is available within the platform only after the
+          booking is accepted.
+        </li>
+        <li>
+          <b>Modifications:</b> A booking can be extended or modified subject to car availability and the
+          lessor's approval; otherwise, it cannot be extended or modified. Extension and
+          modification are subject to additional fees.
+        </li>
+        <li>
+          <b>Platform liability disclaimer:</b> The Cruiz platform is not a direct party to the contract
+          between the renter and the lessor; it acts only as a broker to facilitate booking and
+          payment. The platform assumes no direct responsibility for delays or damages caused by
+          either party.
+        </li>
+        <li>
+          <b>Deposit:</b> A refundable security deposit must be paid to the company's account to cover
+          any violations or damages. This amount is retained in the company's account for two
+          weeks after the rental period ends. Comprehensive insurance is mandatory on all rented
+          vehicles to cover potential losses and protect the lessor from compensation claims if an
+          accident occurs.
+        </li>
+      </ol>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Responsibilities and Warranties'">
+      <p>
+        The user bears full responsibility for their use of the application or website and for all activities
+        through their account. Some specific obligations include:
+      </p>
+      <ol>
+        <li>
+          <b>Lessor responsibility:</b> The lessor must ensure the vehicle's fitness and safety before
+          delivery, including regular technical inspection, insurance, and cleanliness. The lessor
+          must not list vehicles they do not legally own or have the right to rent. The lessor is
+          responsible for any legal violation related to the vehicle outside the rental period. The
+          lessor must photograph the car at pick-up and return.
+        </li>
+        <li>
+          <b>Renter responsibility:</b> The renter must use the car for the agreed purpose without
+          misuse, negligence, or illegal activities. They must comply with traffic laws and
+          regulations when driving. The renter must notify the relevant authorities (traffic or
+          Najm) in case of any accident or damage to the car and immediately inform the platform
+          and the lessor. The renter must photograph the car at pick-up and return.
+        </li>
+        <li>
+          <b>Platform (Cruiz) responsibility:</b> Cruiz acts as a technical intermediary between lessors
+          and renters and does not bear direct responsibility for implementing agreements
+          between the parties. The platform does not guarantee continuous availability of
+          vehicles, compliance with booking or rental terms, or the absence of damages,
+          accidents, or technical malfunctions. The platform disclaims liability for any direct or
+          indirect losses or damages arising from the use or inability to use the application,
+          website, or vehicle.
+        </li>
+      </ol>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Intellectual Property'">
+      <p>
+        All intellectual property rights related to Cruiz, including the trade name, trademark, logo,
+        designs, texts, images, videos, user interface, source code, and databases, are the exclusive
+        property of the platform and are protected under the intellectual property laws of Saudi Arabia
+        and relevant international agreements.
+      </p>
+      <ul>
+        <li>
+          It is prohibited to copy, republish, distribute, modify, or create derivative works from any
+          part of the platform's content without prior written consent from Cruiz.
+        </li>
+        <li>
+          Users may use the application and/or website and their content for personal and
+          legitimate purposes only, in accordance with the terms of use.
+        </li>
+        <li>
+          Using the content for any commercial, advertising, or competitive purpose is prohibited
+          without explicit written permission from the platform.
+        </li>
+      </ul>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Termination or Suspension of the Account'">
+      <ol>
+        <li class="margin-bottom-20">
+          Cruiz reserves the right to suspend, cancel, or restrict the user's account access,
+          temporarily or permanently, at any time and without prior notice if it determines that
+          the user has:
+          <ul class="imbedded-ul">
+            <li>
+              Violated any provision of these terms and conditions or any related policies.
+            </li>
+            <li>
+              Provided false or misleading information during registration or use of the platform.
+            </li>
+            <li>
+              Misused the platform or caused physical or moral damage to another user or to rented
+              vehicles.
+            </li>
+          </ul>
+        </li>
+        <li>
+          User's right to termination: Users may request cancellation of their account at any time
+          through account settings or by contacting customer service. Termination or suspension
+          does not relieve the user from any financial or legal obligations incurred before the
+          termination date.
+        </li>
+      </ol>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Disputes'">
+      <p>
+        These terms and conditions, any related policies, and any dispute or claim arising from
+        or related to the use of the Cruiz platform are subject to and interpreted according to
+        the laws and regulations of the Kingdom of Saudi Arabia.
+      </p>
+      <ul>
+        <li>
+          If any provision conflicts with applicable laws or regulations, that provision shall be
+          considered void only, without affecting the validity or continuation of the remaining
+          terms and conditions.
+        </li>
+        <li>
+          The user and the platform will seek to resolve any dispute amicably; otherwise, the
+          dispute will be referred to the competent judicial authorities in the city of Riyadh, Saudi
+          Arabia.
+        </li>
+        <li>
+          Arabic is the official language for interpreting and applying these terms and conditions
+          and for all legal procedures and correspondence related to this contract. In the event of
+          any conflict or difference between the Arabic text and any text in another language, the
+          Arabic text prevails.
+        </li>
+        <li>
+          Cruiz assumes no responsibility for any delay or failure in performance resulting from
+          circumstances beyond reasonable control, including but not limited to natural disasters,
+          health crises, system or communication outages, or security or political events.
+        </li>
+      </ul>
+    </app-expandable-card>
+  </div>
 </app-page-template>

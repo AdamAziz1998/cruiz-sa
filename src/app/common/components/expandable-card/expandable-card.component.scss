@@ -1,0 +1,47 @@
+:host {
+    width:100%;
+    display: flex;
+    justify-content: center;;
+}
+
+.container {
+    width: 90%;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin-bottom: 20px;;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.card-content {
+  height: 0;
+  overflow: hidden;
+  transition: height 1s ease, opacity 1s ease, padding 1s ease;
+  opacity: 0;
+  padding: 0 16px;
+}
+
+.card-content.open {
+    max-height: 1000px;
+    height: fit-content;
+    opacity: 1;
+    padding: 20px;
+}
+
+.title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: white;
+}

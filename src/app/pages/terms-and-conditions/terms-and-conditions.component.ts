@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { PageTemplateComponent } from '../../common/components/page-template/page-template.component';
-import { WhitePageBodyComponent } from '../../common/components/white-page-body/white-page-body.component';
+import { ExpandableCardComponent } from "../../common/components/expandable-card/expandable-card.component";
 
 @Component({
   selector: 'app-terms-and-conditions',
-  imports: [PageTemplateComponent, WhitePageBodyComponent],
+  imports: [PageTemplateComponent, ExpandableCardComponent],
   templateUrl: './terms-and-conditions.component.html',
   styleUrl: './terms-and-conditions.component.scss',
 })

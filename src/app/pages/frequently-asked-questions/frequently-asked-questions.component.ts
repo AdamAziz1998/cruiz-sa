@@ -6,8 +6,12 @@ import { WhitePageBodyComponent } from '../../common/components/white-page-body/
 
 @Component({
   selector: 'app-frequently-asked-questions',
-  imports: [PageTemplateComponent, WhitePageBodyComponent],
+  imports: [PageTemplateComponent],
   templateUrl: './frequently-asked-questions.component.html',
   styleUrl: './frequently-asked-questions.component.scss',
 })
-export class FrequentlyAskedQuestionsComponent {}
+export class FrequentlyAskedQuestionsComponent {
+
+  
+
+}

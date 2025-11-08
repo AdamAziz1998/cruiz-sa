@@ -24,14 +24,14 @@ export class FooterComponent {
   }
 
   public onClickTwitter() {
-    this.router.navigateByUrl('TODO');
+    this.router.navigateByUrl('https://x.com/appcruiz65820');
   }
 
   public onClickInstagram() {
-    this.router.navigateByUrl('TODO');
+    this.router.navigateByUrl('https://www.instagram.com/cruiz.app');
   }
 
   public onClickTikTok() {
-    this.router.navigateByUrl('TODO');
+    this.router.navigateByUrl('https://www.tiktok.com/@cruiz.app');
   }
 }
