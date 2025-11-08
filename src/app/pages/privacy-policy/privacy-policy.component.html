@@ -1,7 +1,79 @@
 <app-page-template>
-  <app-white-page-body>
-    <div class="coming-soon">
-      <div>Coming soon!</div>
-    </div>
-  </app-white-page-body>
+  <div class="container">
+    <div class="header">Privacy Policy</div>
+    <p class="header-p">
+      Cruiz Platform is committed to protecting and respecting your privacy. We dedicate our efforts
+      to providing an exceptional experience through our website and application, while ensuring the
+      confidentiality of your personal information and complying with all applicable laws and
+      regulations.
+    </p>
+    <app-expandable-card [title]="'Information we collect'">
+      <ul>
+        <li>
+          We collect personal information that you voluntarily provide when you contact us or use
+          our services, such as your name, email address, phone number, address, personal ID or
+          any necessary documents.
+
+        </li>
+        <li>
+          We also collect non-personal information related to your use of the site to improve our
+          services.
+        </li>
+      </ul>
+    </app-expandable-card>
+    <app-expandable-card [title]="'How we use the information'">
+      <ul>
+        <li>
+          Your data is used to deliver our services, communicate with you about offers and
+          updates, marketing, and improving your experience.
+        </li>
+        <li>
+          It also helps us conduct research and studies to improve our services.
+        </li>
+        <li>
+          We do not sell or rent your data to third parties.
+        </li>
+      </ul>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Disclosure of information'">
+      <p>
+        We may share your data with our partners or service providers within or outside the
+        Kingdom of Saudi Arabia for the purposes of providing services or legal compliance,
+        while safeguarding your privacy and information security.
+      </p>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Cookies'">
+      <ul>
+        <li>
+          We use tracking technologies to enhance your browsing experience and personalize
+          content.
+        </li>
+        <li>
+          You can configure your browser to accept or reject these files; however, this may affect
+          some site functions.
+        </li>
+      </ul>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Your Rights and Access to Information'">
+      <ul>
+        <li>
+          You can request to view, update, or delete your personal data in accordance with
+          regulations.
+        </li>
+        <li>
+          Some data may be retained for certain periods for legal or operational reasons.
+        </li>
+      </ul>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Changes to the Privacy Policy'">
+      <ul>
+        <li>
+          We reserve the right to modify the privacy policy as needed.
+        </li>
+        <li>
+          Any changes will be communicated to you through the platform.
+        </li>
+      </ul>
+    </app-expandable-card>
+  </div>
 </app-page-template>
