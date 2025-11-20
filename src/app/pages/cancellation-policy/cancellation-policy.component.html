@@ -1,0 +1,93 @@
+<app-page-template>
+  <div class="container">
+    <div class="header">Cancellation Policy</div>
+    <app-expandable-card [title]="'Cancellation'">
+      <ol>
+        <li class="header-ol">
+          <div class="section-header">Cancellation by the renter</div>
+          <ul class="medium-font-size imbedded-ul">
+            <li>
+              The lessor specifies a time period during which the renter is eligible for a full refund of
+              the paid amount if the cancellation occurs within this period.
+            </li>
+            <li>
+              If the renter cancels the reservation after the end of the period mentioned above, they
+              are entitled to a refund of only half of the amount.
+            </li>
+            <li>
+              If the renter wishes to cancel after the start of the rental period, they are not entitled to
+              any amount and must return the car immediately to the lessor.
+            </li>
+            <li>
+              If the renter does not show up to collect the vehicle at the appointed time without
+              informing the lessor within a grace period not exceeding two hours, the reservation is
+              automatically cancelled and the renter is not entitled to any refund.
+            </li>
+           </ul>
+        </li>
+        <li class="header-ol">
+          <div class="section-header">Cancellation by the lessor</div>
+          <ul class="medium-font-size imbedded-ul">
+            <li>
+              The lessor has the right to cancel the reservation before the start of the rental period for
+              a legitimate reason such as (but not limited to) establishing that the renter is not
+              qualified or has provided incorrect information; this is subject to review and evaluation
+              by Cruiz platform.
+            </li>
+            <li>
+              If the lessor cancels the reservation for illegitimate reasons or delays delivery for more
+              than two hours, the renter is entitled to a full refund of the paid amount without any
+              deduction, a fine of 1000 Saudi riyals is imposed on the lessor, and the Cruiz platform
+              and the renter reserve the right to claim any additional compensation resulting from this
+              breach.
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Modification'">
+      <ul>
+        <li>
+          A reservation modification can be requested before the start of the rental period,
+          subject to the lessor's approval, and the platform may impose additional modification
+          fees.
+        </li>
+      </ul>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Refund'">
+      <ul>
+        <li>
+          Refunds are processed through the same payment method used for the booking within a
+          period not exceeding seven working days.
+        </li>
+        <li>
+          Refunds are applied according to the above clauses and depending on the cancellation
+          status; otherwise, the user has no right to recover any amounts.
+        </li>
+      </ul>
+    </app-expandable-card>
+    <app-expandable-card [title]="'General Provisions'">
+      <ul>
+        <li>
+          In the event of a dispute or a claim for a refund after cancellation, either party may
+          submit a complaint through the application via the Cruise platform's customer service.
+        </li>
+        <li>
+          If any user (lessor or renter) is late for the agreed time due to an error in registration or
+          providing incorrect information, the Cruise platform bears no responsibility for this
+          delay, and the other party is not held responsible or liable for any consequences arising
+          from that.
+        </li>
+        <li>
+          The Cruise platform reserves the right to review any request for a refund or cancellation
+          and verify its validity before making a final decision.
+        </li>
+        <li>
+          The penalties and additional fees set out in the fourth clause of the terms and conditions
+          apply to all cases related to delays or breaches of obligations by the parties according to
+          this policy.
+        </li>
+      </ul>
+    </app-expandable-card>
+  </div>
+</app-page-template>

@@ -1,3 +1,386 @@
 <app-page-template>
-  <div class="container">Hi</div>
+  <div class="container">
+    <div class="header">Frequently Asked Questions</div>
+    <app-expandable-card [title]="'General'">
+      <h3>How do I create an account on the app?</h3>
+      <p>You can create an account by clicking on "create account" then entering your personal information (such as full name, phone number, and email).</p>
+
+      <h3>Can I sign up using my Google account?</h3>
+      <p>Yes, you can sign up with your google account.</p>
+
+      <h3>Is my personal information safe on the platform?</h3>
+      <p>Yes. All personal data is protected under privacy and data security regulations.</p>
+
+      <h3>Can I change my registered phone number or email address?</h3>
+      <p>Yes. You can update your contact details from your account settings. A verification step may be required.</p>
+
+      <h3>How do I reset my password?</h3>
+      <p>If you forget your password, click “Forgot Password” on the login screen. You'll receive a verification code via email to create a new password.</p>
+
+      <h3>How can I contact customer service?</h3>
+      <p>You can contact customer service through the live chat feature in the app or through a phone call by clicking on contact customer service.</p>
+
+      <h3>What should I do if I forget my password?</h3>
+      <p>Follow the “Forgot Password” process on the login screen to reset it securely.</p>
+
+      <h3>How can I update my personal information?</h3>
+      <p>Go to your account settings in the app, where you can edit details such as your name, address, and contact information.</p>
+
+      <h3>Can I have multiple accounts?</h3>
+      <p>Each user is only allowed one account per person for compliance purposes.</p>
+
+      <h3>How do I delete my account?</h3>
+      <p>Go to your account settings then click on delete my account. Your information will be stored even after you delete your account for safety purposes.</p>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Hosts'">
+      <h3>How do I create a host account?</h3>
+      <p>Download the Cruiz host app then follow the registration steps to creating the account by submitting the required documents and completing the host verification process within the app.</p>
+
+      <h3>What documents are required to verify my account as a host?</h3>
+      <p>You will need to submit a valid Saudi ID, vehicle registration and insurance documents.</p>
+
+      <h3>How long does it take to get verified as a host?</h3>
+      <p>It will take between 2 to 3 business days to verify the account.</p>
+
+      <h3>Can I switch my account from guest to host?</h3>
+      <p>You can not switch the account but you can create a new account in Cruiz Host app and just provide additional documents for the verification process.</p>
+
+      <h3>What happens if my account verification is denied?</h3>
+      <p>You'll receive an email with the reason for rejection. You can correct the issue (e.g. submit clearer documents) and reapply.</p>
+
+      <h3>Can I register as a host if I don't live in Saudi Arabia?</h3>
+      <p>No. The App currently only functions in Saudi Arabia</p>
+
+      <h3>How can I verify my vehicle ownership?</h3>
+      <p>By uploading your vehicle's registration document under your name or your company's name.</p>
+
+      <h3>What happens if I change my phone number or email?</h3>
+      <p>You can update this information in your account settings. A verification process will follow to confirm the change.</p>
+
+      <h3>How do I list my vehicle on the platform?</h3>
+      <p>Once verified as a host, you can list your vehicle by clicking on add vehicle on my fleet page. You would then have to enter the vehicle details (make, model, year, photos).</p>
+
+      <h3>What documents are required to list my vehicle?</h3>
+      <p>vehicle registration, Insurance document and an inspection certificate if your vehicle make is 3 years old or more.</p>
+
+      <h3>Are there any mileage restrictions?</h3>
+      <p>The minimum limit for the maximum mileage selected by the host is 100km</p>
+
+      <h3>Can I list more than one vehicle?</h3>
+      <p>You are only allowed to list one vehicle as an individual according to the regulations of the transport general authority.</p>
+
+      <h3>Can I set my own rental price?</h3>
+      <p>Yes, you can set your own price within the acceptable range for the vehicle model</p>
+
+      <h3>Is there a minimum rental period for my vehicle?</h3>
+      <p>The minimum rental period is one day.</p>
+
+      <h3>How do I update my vehicle's availability?</h3>
+      <p>You can manage availability using the calendar feature within the vehicle settings to block out days or open new dates for booking.</p>
+
+      <h3>Can I unlist my vehicle temporarily without deleting its information?</h3>
+      <p>Yes, you can unlist from the vehicle settings.</p>
+
+      <h3>How is the rental price calculated?</h3>
+      <p>The rental price is calculated by using the rental rate (set by the host) + VAT + platform service fee + optional add-ons (eg. vehicle delivery service).</p>
+
+      <h3>Can I offer discounts for long-term bookings?</h3>
+      <p>You can offer a weekly or monthly discount fee through the vehicle settings.</p>
+
+      <h3>Are there extra charges for premium features like GPS or child seats?</h3>
+      <p>No, you cannot add extra charges to vehicle. However, having these premium features with the vehicle would increase the rate at which the vehicle is rented.</p>
+
+      <h3>When do I receive payment after rental?</h3>
+      <p>Once the guest confirms the booking and pays for the fees, the payment will be held by cruiz for 1 week or until the rent period starts whichever one comes first then you will receive the payment automatically.</p>
+
+      <h3>Can I change my payment method?</h3>
+      <p>You can update your preferred payment method in your account settings.</p>
+
+      <h3>Are there any platform service fees?</h3>
+      <p>Yes. The platform will add 15% service fee to each completed booking.</p>
+
+      <h3>How do I issue a refund to a guest?</h3>
+      <p>The host cannot refund the guest. If the guest encounters any trouble the customer service team will resolve their issue.</p>
+
+      <h3>What happens if a guest cancels their booking?</h3>
+      <p>If the guest cancels the booking within the cancellation period set by the host, the full amount will be refunded. If the guest cancels the booking after the period set by the host, only part of the amount will be refunded.</p>
+
+      <h3>Can I charge additional fees for extra mileage?</h3>
+      <p>Yes, you can charge for extra mileage but the price for every extra kilometer is set by Cruiz.</p>
+
+      <h3>What happens if I receive a late payment?</h3>
+      <p>Payment is collected from the guest upfront by the platform, you may need to check with your bank if the payment took longer than a week.</p>
+
+      <h3>How does VAT affect my earnings?</h3>
+      <p>The VAT is a tax put on goods by the Zakat, Tax and Customs Authority. It will be added to the rental price, it will not be taken from your earnings.</p>
+
+      <h3>How do I report damage caused by a renter?</h3>
+      <p>You should report damages through the app or customer service as soon as the rental ends. You'll need to provide photo evidence and a damage report.</p>
+
+      <h3>Who is responsible for insurance claims?</h3>
+      <p>Your vehicle should be insured by an insurance company; any claims should be directed to them.</p>
+
+      <h3>What happens if the guest is involved in an accident?</h3>
+      <p>The guest should report the accident immediately. You will be notified, and the platform will guide both parties through the next steps.</p>
+
+      <h3>What happens if the guest violates traffic laws while using my vehicle?</h3>
+      <p>Once the guest picks up the vehicle, it will be automatically delegated to the guest through Absher. Therefore, if there are any traffic violations during the rental period, the guest will be fined.</p>
+
+      <h3>How do I accept or decline a booking request?</h3>
+      <p>You'll receive a notification through the app. You can accept or reject it through your dashboard.</p>
+
+      <h3>Can I set restrictions on who can book my vehicle?</h3>
+      <p>You cannot restrict the guests.</p>
+
+      <h3>What should I do if I need to cancel a booking?</h3>
+      <p>You can cancel from your dashboard, but frequent cancellations may affect your host rating. Always try to cancel with advance notice.</p>
+
+      <h3>Will I be penalized for canceling a booking?</h3>
+      <p>If you cancel a booking for no legitimate reason or cancel the bookings consistently, your account will be suspended.</p>
+
+      <h3>What happens if a guest returns my vehicle late?</h3>
+      <p>You'll be compensated for late returns.</p>
+
+      <h3>Can I extend a booking if the guest requests it?</h3>
+      <p>Yes, if the vehicle is available. Both parties must confirm the extension and the new payment terms through the app.</p>
+
+      <h3>How do I communicate with a guest before pickup?</h3>
+      <p>You'll have access to in-app messaging once the booking is confirmed.</p>
+
+      <h3>Where should I meet the guest for pickup?</h3>
+      <p>You can either restrict the guest to come pick up the vehicle from the pickup location or deliver it to a location he chooses within the city.</p>
+
+      <h3>Can I offer vehicle delivery to the guest's location?</h3>
+      <p>Yes, if you choose to offer this service.</p>
+
+      <h3>How do I handle late pickups by the guest?</h3>
+      <p>Contact the guest and report the late pickup to customer service.</p>
+
+      <h3>What should I do if my vehicle is returned dirty?</h3>
+      <p>Take photos and report them to customer service.</p>
+
+      <h3>Who is responsible for refueling the vehicle?</h3>
+      <p>The guest is expected to return the vehicle with the same fuel level as when they received it.</p>
+
+      <h3>What condition should the vehicle be in when returned?</h3>
+      <p>The vehicle should be in the same condition as it was at pickup.</p>
+
+      <h3>Can I inspect my vehicle before accepting it back?</h3>
+      <p>Yes, and it's highly recommended. Take photos and document any issues before approving the return in the app.</p>
+
+      <h3>What happens if there's a dispute over the vehicle's condition?</h3>
+      <p>Report the dispute to customer service with time-stamped before/after photos. The platform will mediate based on the evidence provided.</p>
+
+      <h3>How do I document any damages upon return?</h3>
+      <p>Use the app or your phone to take high-quality, time-stamped photos and submit a report through the platform.</p>
+
+      <h3>How much do I pay the app for renting my vehicle?</h3>
+      <p>The platform will not charge the host, the platform adds a service fee on each booking transaction.</p>
+
+      <h3>Can I cancel a booking if I feel uncomfortable with the guest?</h3>
+      <p>Yes, and you will be asked to give a reason. Ideally you should reject the booking request before the confirmation, Repeated cancellations may affect your host ratings.</p>
+
+      <h3>What happens if a guest cancels last minute?</h3>
+      <p>The host can set a cancellation period that restricts last-minute cancellations.</p>
+
+      <h3>To whom do I report damage that I believe the guest caused to my vehicle?</h3>
+      <p>You should report them to customer service immediately with photos and documentation.</p>
+
+      <h3>What happens if the guest files a false claim against me?</h3>
+      <p>The platform will review all evidence from both sides. If your documentation is strong, false claims will be rejected.</p>
+
+      <h3>How do I report a guest for violating platform policies?</h3>
+      <p>Contact customer service directly with full details and evidence.</p>
+
+      <h3>Can I appeal penalties or fines applied to my vehicle during a rental period?</h3>
+      <p>Yes, provide documentation showing that the guest was responsible during that time.</p>
+
+      <h3>What is the platform's policy on no-shows?</h3>
+      <p>The vehicle will remain with the host until he is able to pick up the vehicle during the rental period.</p>
+
+      <h3>How long does it take to resolve disputes between hosts and guests?</h3>
+      <p>The standard is within 3 business days.</p>
+
+      <h3>Who handles disputes between hosts and guests?</h3>
+      <p>Customer service mediates disputes by reviewing evidence from both sides and applying platform policies.</p>
+
+      <h3>Can I leave a review for a guest?</h3>
+      <p>Yes. After each completed booking, you'll have the option to rate and review the guest.</p>
+
+      <h3>Can guests leave reviews for me as a host?</h3>
+      <p>Yes. Guests can rate their experience with your vehicle, communication, and service.</p>
+
+      <h3>Can I respond to a negative review?</h3>
+      <p>No, you will not be able to reply or delete negative reviews.</p>
+
+      <h3>How are host ratings calculated?</h3>
+      <p>Ratings are based on guest reviews and metrics like response time, cancellation rate, and overall experience.</p>
+
+      <h3>What should I do if I receive an unfair review?</h3>
+      <p>Flag the review to be reviewed by customer service. If it violates guidelines, it may be removed.</p>
+
+      <h3>Can I delete a review left by a guest?</h3>
+      <p>No, but you can report it if it contains false or inappropriate content.</p>
+
+      <h3>Will low ratings affect my ability to list vehicles?</h3>
+      <p>Yes, consistently low ratings may lower your visibility or result in account review or suspension.</p>
+
+      <h3>What should I do if I can't access my host account?</h3>
+      <p>Try resetting your password or contact customer service to help regain access.</p>
+
+      <h3>How do I update my vehicle details on the app?</h3>
+      <p>Log into your host dashboard, go to your vehicle listing, and update the necessary fields (photos, description, features, etc.).</p>
+
+      <h3>What if my vehicle listing isn't showing up for guests?</h3>
+      <p>Check your availability calendar and account status. If everything looks correct, contact customer service for assistance.</p>
+
+      <h3>How can I update my payment information?</h3>
+      <p>Go to your account settings and select your payout method.</p>
+
+      <h3>What should I do if I encounter a technical issue during a booking?</h3>
+      <p>Contact customer service immediately for live assistance.</p>
+
+      <h3>Can I pause my account temporarily?</h3>
+      <p>You will not be able to pause the account temporarily, but you can unlist the vehicle temporarily from the vehicle listing settings.</p>
+
+      <h3>Are there additional requirements for luxury vehicle listings?</h3>
+      <p>vehicle listing requirements are applied for all the vehicles equally.</p>
+
+      <h3>Can tourists rent my vehicle?</h3>
+      <p>Yes, and they have a different verification process that ensures they will comply with platform guidelines.</p>
+    </app-expandable-card>
+    <app-expandable-card [title]="'Guests'">
+      <h3>How do I create a guest account?</h3>
+      <p>You can create an account by downloading the app and signing up with your name, email, phone number, and a valid ID and driver's license.</p>
+
+      <h3>Can I rent a vehicle if I'm not a Saudi resident?</h3>
+      <p>Yes, if you have an International Driver's Permit (IDP).</p>
+
+      <h3>What's the age requirement for renting a vehicle?</h3>
+      <p>The minimum age requirement for renting a vehicle is 21.</p>
+
+      <h3>How do I upload my driver's license?</h3>
+      <p>After you register in the app you will be able to verify your account from the settings menu. During the verification process you'll be asked to upload a picture of your license. Make sure the image is clear and shows all the required details.</p>
+
+      <h3>Can I use an international driver's license?</h3>
+      <p>Yes, if it is recognized by Saudi authorities and is valid during the rental period.</p>
+
+      <h3>What do I do if my account verification is rejected?</h3>
+      <p>You'll be notified of the reason. Correct the issue (e.g., upload a clearer photo or update missing information) and resubmit.</p>
+
+      <h3>How do I search for available vehicles?</h3>
+      <p>Use the search feature in the app. You can filter results by location, date, vehicle type, price, or other specific features.</p>
+
+      <h3>Can I filter search results by vehicle type or price?</h3>
+      <p>Yes, filters are available to narrow your results by type (e.g., SUV, sedan), price range, etc.</p>
+
+      <h3>How do I check a vehicle's availability?</h3>
+      <p>Each listing has a calendar showing available dates. You can only book on dates that are marked as available.</p>
+
+      <h3>Can I book a vehicle for someone else?</h3>
+      <p>No, you cannot. If you rent a vehicle, the rental contract will be under your name.</p>
+
+      <h3>How do I contact the host before booking?</h3>
+      <p>You cannot contact a host before booking, after you successfully book a vehicle, the host contact information will appear, and you will be able to contact the host in the app.</p>
+
+      <h3>How do I know if a vehicle is insured?</h3>
+      <p>All vehicles listed must meet platform insurance requirements.</p>
+
+      <h3>Can I book a vehicle for long-term use?</h3>
+      <p>Yes, and you may even have a discount. Just select the start and end date when booking.</p>
+
+      <h3>How do I confirm a booking?</h3>
+      <p>Once you select a vehicle and submit your request, the host can either accept or reject it, you'll receive confirmation automatically after the host has accepted your request.</p>
+
+      <h3>Can I cancel my booking?</h3>
+      <p>Yes, you can cancel within the free cancellation period applied by the host.</p>
+
+      <h3>Are there any cancellation fees?</h3>
+      <p>There are no cancellation fees, but if you cancel after the free cancellation period you will only have part of the money refunded.</p>
+
+      <h3>Can I extend my booking after it starts?</h3>
+      <p>Yes, if the vehicle is still available for the extended period and the host approves the extension. Additional charges will apply.</p>
+
+      <h3>What happens if the host cancels my booking?</h3>
+      <p>You will be notified, and your payment will be fully refunded.</p>
+
+      <h3>Can I change my pickup or drop-off location?</h3>
+      <p>Yes, after agreeing with the host on a new location.</p>
+
+      <h3>What should I do if I'm running late for pickup?</h3>
+      <p>Inform the host immediately.</p>
+
+      <h3>How do I request an early return?</h3>
+      <p>Contact the host and request an early return. However, you will not be refunded for the unused time.</p>
+
+      <h3>Can I change the booking duration after starting?</h3>
+      <p>Yes, if both you and the host agree. You'll need to request the change through the app, and pricing will adjust accordingly.</p>
+
+      <h3>Can I book multiple vehicles at once?</h3>
+      <p>You are allowed to book more than one vehicle at once, but you must be the only one allowed to drive the vehicle booked.</p>
+
+      <h3>What payment methods are accepted?</h3>
+      <p>Credit/debit cards and Apple Pay.</p>
+
+      <h3>When will I be charged for my booking?</h3>
+      <p>You'll be charged once your booking is confirmed by the host and you've gone through the payout process.</p>
+
+      <h3>Are there any additional fees besides the rental cost?</h3>
+      <p>Yes. Additional fees may include VAT and delivery charges.</p>
+
+      <h3>Are there any hidden charges?</h3>
+      <p>No. All applicable fees should be shown during the checkout process before you confirm your booking.</p>
+
+      <h3>Can I split payments across multiple cards?</h3>
+      <p>No, you cannot, the payment must be processed from one card.</p>
+
+      <h3>How do I update my payment information?</h3>
+      <p>Go to your account settings > Payment Methods and add or update your card or wallet information.</p>
+
+      <h3>How do refunds work if I cancel my booking?</h3>
+      <p>Your money will be returned to you within 24 hours.</p>
+
+      <h3>Is insurance included in my rental?</h3>
+      <p>Yes, insurance is included in your rental.</p>
+
+      <h3>What should I do if I get into an accident?</h3>
+      <p>Ensure your safety, then contact emergency services if needed. Inform the host and customer services immediately and follow insurance claim procedures. Make sure you take pictures of the accident.</p>
+
+      <h3>What happens if the vehicle is stolen?</h3>
+      <p>Report it to the police immediately and contact the host and customer services so that we document the incident.</p>
+
+      <h3>How do I file a damage claim?</h3>
+      <p>Contact customer services through the app, provide photos and a description of the incident.</p>
+
+      <h3>Can I request vehicle delivery, or do I need to pick it up?</h3>
+      <p>The host has the option to deliver the vehicle; some vehicles may have the delivery feature.</p>
+
+      <h3>What should I do if the vehicle was damaged before pickup?</h3>
+      <p>Take clear photos of the damage and report it to the host and customer service immediately, before starting your trip.</p>
+
+      <h3>What happens if I return the vehicle late?</h3>
+      <p>Late return fees may apply depending on how late the return is.</p>
+
+      <h3>Do I need to refuel the vehicle before returning it?</h3>
+      <p>Yes. You should return the vehicle with the same fuel level it had at pickup, or additional charges may apply.</p>
+
+      <h3>What if the vehicle breaks down during my rental?</h3>
+      <p>Pull over safely and contact the customer service team for assistance.</p>
+
+      <h3>How should I report any issues with the vehicle during my trip?</h3>
+      <p>Contact our customer service team for support.</p>
+
+      <h3>Can I report a host for misconduct?</h3>
+      <p>Yes. You can report any violations or poor behavior to the customer service team.</p>
+
+      <h3>What happens if I violate the platform's community guidelines?</h3>
+      <p>The violation will be assessed by the admin team, and we will act accordingly in response.</p>
+
+      <h3>Can my account be suspended for poor behavior?</h3>
+      <p>Policy violations and repeatedly receiving bad reviews may result in account suspension</p>
+
+      <h3>How can I improve my guest rating?</h3>
+      <p>Communicate clearly, return the vehicle on time and in good condition, follow the guidelines, and treat the host and vehicle with respect.</p>
+    </app-expandable-card>
+  </div>
 </app-page-template>

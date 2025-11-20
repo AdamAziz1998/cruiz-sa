@@ -15,6 +15,14 @@ export class FooterComponent {
     this.router.navigate(['/faq']);
   }
 
+  public navigateToCancellationPolicy() {
+    this.router.navigate(['/cancellation-policy']);
+  }
+
+  public navigateToAboutUs() {
+    this.router.navigate(['/about-us']);
+  }
+
   public navigateToPrivacyPolicy() {
     this.router.navigate(['/privacy-policy']);
   }
