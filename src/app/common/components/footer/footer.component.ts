@@ -27,6 +27,10 @@ export class FooterComponent {
     this.router.navigate(['/privacy-policy']);
   }
 
+  public navigateToCommunityGuidelines() {
+    this.router.navigate(['/community-guidelines']);
+  }
+
   public navigateToTermsAndConditions() {
     this.router.navigate(['/terms-and-conditions']);
   }

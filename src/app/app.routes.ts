@@ -5,6 +5,7 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
 import { TermsAndConditionsComponent } from './pages/terms-and-conditions/terms-and-conditions.component';
 import { CancellationPolicyComponent } from './pages/cancellation-policy/cancellation-policy.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { CommunityGuidelinesComponent } from './pages/community-guidelines/community-guidelines.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -14,5 +15,6 @@ export const routes: Routes = [
   { path: 'terms-and-conditions', component: TermsAndConditionsComponent },
   { path: 'cancellation-policy', component: CancellationPolicyComponent },
   { path: 'about-us', component: AboutUsComponent },
+  { path: 'community-guidelines', component: CommunityGuidelinesComponent },
   { path: '**', redirectTo: 'home' },
 ];
