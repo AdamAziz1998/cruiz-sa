@@ -8,7 +8,6 @@ header {
   z-index: 1000;
   transition: all 0.3s ease;
   border-bottom: 1px solid rgba(114, 47, 55, 0.3);
-  padding: 1rem 5%;
 }
 
 nav {
@@ -21,24 +20,11 @@ nav {
 }
 
 .logo {
-  font-size: 2rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--burgundy), var(--burgundy-light));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: -1px;
+  height: 85px;
+  overflow: hidden;
+  margin-left: 20px;
 }
 
 .logo:hover {
   cursor: pointer;
-}
-
-.circle {
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
-  background: var(--burgundy-light);
-  position: relative;
-  bottom: 39px;
-  left: 45.8px
 }
