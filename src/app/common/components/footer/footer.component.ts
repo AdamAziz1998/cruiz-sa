@@ -12,27 +12,27 @@ export class FooterComponent {
   constructor(private router: Router) {}
 
   public navigateToFaq() {
-    this.router.navigate(['/faq']);
+    this.router.navigate(['/faq']).then();
   }
 
   public navigateToCancellationPolicy() {
-    this.router.navigate(['/cancellation-policy']);
+    this.router.navigate(['/cancellation-policy']).then();
   }
 
   public navigateToAboutUs() {
-    this.router.navigate(['/about-us']);
+    this.router.navigate(['/about-us']).then();
   }
 
   public navigateToPrivacyPolicy() {
-    this.router.navigate(['/privacy-policy']);
+    this.router.navigate(['/privacy-policy']).then();
   }
 
   public navigateToCommunityGuidelines() {
-    this.router.navigate(['/community-guidelines']);
+    this.router.navigate(['/community-guidelines']).then();
   }
 
   public navigateToTermsAndConditions() {
-    this.router.navigate(['/terms-and-conditions']);
+    this.router.navigate(['/terms-and-conditions']).then();
   }
 
   public onClickTwitter() {
