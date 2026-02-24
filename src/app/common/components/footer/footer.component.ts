@@ -36,7 +36,7 @@ export class FooterComponent {
   }
 
   public onClickTwitter() {
-    window.open('https://x.com/appcruiz65820');
+    window.open('https://x.com/cruizplatform');
   }
 
   public onClickInstagram() {
