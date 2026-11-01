@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import {NgOptimizedImage} from '@angular/common';
+import {LanguageToggleComponent} from '../language-toggle/language-toggle.component';
 
 @Component({
   selector: 'app-header',
   standalone: true,
   imports: [
-    NgOptimizedImage
+    NgOptimizedImage,
+    LanguageToggleComponent
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',

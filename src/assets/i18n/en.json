@@ -1,0 +1,134 @@
+{
+  "HOME": {
+    "HERO": {
+      "TITLE": "Rent Cars from",
+      "TITLE_SPAN": "People Near You",
+      "SUBTITLE_1": "Skip the rental counter. Get the car you want from trusted locals in your community",
+      "SUBTITLE_2": "Fast Affordable Flexible",
+      "BUTTONS": {
+        "APP_STORE_COMING": "Get it soon on the",
+        "APP_STORE": "App Store",
+        "PLAY_STORE_COMING": "Coming soon to",
+        "PLAY_STORE": "Google Play"
+      },
+      "STATS": {
+        "USERS": {
+          "NUMBER": "50K+",
+          "LABEL": "Active Users"
+        },
+        "CARS": {
+          "NUMBER": "1000+",
+          "LABEL": "Available Cars"
+        },
+        "RATES": {
+          "NUMBER": "35%",
+          "LABEL": "Cheaper Rates"
+        },
+        "RATING": {
+          "NUMBER": "4.8★",
+          "LABEL": "User Rating"
+        }
+      }
+    },
+    "ABOUT": {
+      "TITLE": "How Cruiz Works",
+      "SUBTITLE": "Get on the road in three simple steps",
+      "STEPS": {
+        "ONE": {
+          "TITLE": "Browse Cars",
+          "DESC": "Explore a wide variety of vehicles from trusted local hosts. Filter by price, location, and features to find your perfect ride."
+        },
+        "TWO": {
+          "TITLE": "Book Instantly",
+          "DESC": "Reserve your car with just a few taps. Instant booking confirmation and secure payment processing make it hassle-free."
+        },
+        "THREE": {
+          "TITLE": "Drive Away",
+          "DESC": "Meet your host. Hit the road and enjoy your journey with complete peace of mind."
+        }
+      },
+      "FEATURES": {
+        "SAVE_MONEY": {
+          "TITLE": "Save Money",
+          "DESC": "Up to 35% cheaper than traditional rentals"
+        },
+        "INSTANT_BOOKING": {
+          "TITLE": "Instant Booking",
+          "DESC": "No waiting in lines or paperwork"
+        },
+        "UNIQUE_SELECTION": {
+          "TITLE": "Unique Selection",
+          "DESC": "From economy to luxury vehicles"
+        },
+        "FULLY_INSURED": {
+          "TITLE": "Fully Insured",
+          "DESC": "Comprehensive protection included"
+        }
+      }
+    },
+    "CTA": {
+      "TITLE": "Ready to Hit the Road?",
+      "SUBTITLE": "Questions? We're here to help you get started with Cruiz.",
+      "CALL_US": "Call Us Now",
+      "EMAIL_US": "Email Us"
+    }
+  },
+  "FOOTER": {
+    "BRAND": {
+      "NAME": "Cruiz",
+      "DESCRIPTION": "Your trusted peer-to-peer car rental platform. Drive the car you want, when you want it."
+    },
+    "LEGAL": {
+      "TITLE": "Legal",
+      "CANCELLATION_POLICY": "Cancellation Policy",
+      "TERMS_AND_CONDITIONS": "Terms & Conditions",
+      "PRIVACY_POLICY": "Privacy Policy"
+    },
+    "COMPANY": {
+      "TITLE": "Our Company",
+      "COMMUNITY_GUIDELINES": "Community Guidelines",
+      "ABOUT_US": "About Us",
+      "FAQS": "FAQs"
+    },
+    "SOCIAL": {
+      "TITLE": "Follow us"
+    },
+    "COPYRIGHT": "© 2024 Cruiz. All rights reserved."
+  },
+  "CANCELLATION_POLICY_PAGE": {
+    "TITLE": "Cancellation Policy",
+    "CARDS": {
+      "CANCELLATION": {
+        "TITLE": "Cancellation",
+        "BY_RENTER": {
+          "TITLE": "Cancellation by the renter",
+          "ITEM_1": "The lessor specifies a time period during which the renter is eligible for a full refund of the paid amount if the cancellation occurs within this period.",
+          "ITEM_2": "If the renter cancels the reservation after the end of the period mentioned above, they are entitled to a refund of only half of the amount.",
+          "ITEM_3": "If the renter wishes to cancel after the start of the rental period, they are not entitled to any amount and must return the car immediately to the lessor.",
+          "ITEM_4": "If the renter does not show up to collect the vehicle at the appointed time without informing the lessor within a grace period not exceeding two hours, the reservation is automatically cancelled and the renter is not entitled to any refund."
+        },
+        "BY_LESSOR": {
+          "TITLE": "Cancellation by the lessor",
+          "ITEM_1": "The lessor has the right to cancel the reservation before the start of the rental period for a legitimate reason such as (but not limited to) establishing that the renter is not qualified or has provided incorrect information; this is subject to review and evaluation by Cruiz platform.",
+          "ITEM_2": "If the lessor cancels the reservation for illegitimate reasons or delays delivery for more than two hours, the renter is entitled to a full refund of the paid amount without any deduction, a fine of 1000 Saudi riyals is imposed on the lessor, and the Cruiz platform and the renter reserve the right to claim any additional compensation resulting from this breach."
+        }
+      },
+      "MODIFICATION": {
+        "TITLE": "Modification",
+        "ITEM_1": "A reservation modification can be requested before the start of the rental period, subject to the lessor's approval, and the platform may impose additional modification fees."
+      },
+      "REFUND": {
+        "TITLE": "Refund",
+        "ITEM_1": "Refunds are processed through the same payment method used for the booking within a period not exceeding seven working days.",
+        "ITEM_2": "Refunds are applied according to the above clauses and depending on the cancellation status; otherwise, the user has no right to recover any amounts."
+      },
+      "GENERAL_PROVISIONS": {
+        "TITLE": "General Provisions",
+        "ITEM_1": "In the event of a dispute or a claim for a refund after cancellation, either party may submit a complaint through the application via the Cruise platform's customer service.",
+        "ITEM_2": "If any user (lessor or renter) is late for the agreed time due to an error in registration or providing incorrect information, the Cruise platform bears no responsibility for this delay, and the other party is not held responsible or liable for any consequences arising from that.",
+        "ITEM_3": "The Cruise platform reserves the right to review any request for a refund or cancellation and verify its validity before making a final decision.",
+        "ITEM_4": "The penalties and additional fees set out in the fourth clause of the terms and conditions apply to all cases related to delays or breaches of obligations by the parties according to this policy."
+      }
+    }
+  }
+}

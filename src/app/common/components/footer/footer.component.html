@@ -1,43 +1,43 @@
 <footer>
-	<div class="footer-content">
-		<div class="footer-section-container">
-			<div class="footer-section">
-				<h3>Cruiz</h3>
-				<p>Your trusted peer-to-peer car rental platform. Drive the car you want, when you want it.</p>
-			</div>
-			<div class="footer-section">
-				<h3>Legal</h3>
-				<ul class="footer-links">
-					<li><a (click)="navigateToCancellationPolicy()">Cancellation Policy </a></li>
-					<li><a (click)="navigateToTermsAndConditions()">Terms & Conditions</a></li>
-					<li><a (click)="navigateToPrivacyPolicy()">Privacy Policy</a></li>
-				</ul>
-			</div>
-			<div class="footer-section">
-				<h3>Our Company</h3>
-				<ul class="footer-links">
-					<li><a (click)="navigateToCommunityGuidelines()">Community Guidelines</a></li>
-					<li><a (click)="navigateToAboutUs()">About Us</a></li>
-					<li><a (click)="navigateToFaq()">FAQs</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="footer-section social-footer-section">
-			<h3>Follow us</h3>
-			<div class="social-links">
-				<a (click)="onClickTwitter()" aria-label="Twitter" target="_blank">
-					<img src="assets/images/twitter-x.svg" alt="Twitter"/>
-				</a>
-				<a (click)="onClickInstagram()" aria-label="Instagram" target="_blank">
-					<img src="assets/images/instagram.svg" alt="Instagram" />
-				</a>
-				<a (click)="onClickTikTok()" aria-label="TikTok" target="_blank">
-					<img src="assets/images/tiktok.svg" alt="TikTok" />
-				</a>
-			</div>
-		</div>
-	</div>
-	<div class="footer-bottom">
-		<p>&copy; 2024 Cruiz. All rights reserved.</p>
-	</div>
+  <div class="footer-content">
+    <div class="footer-section-container">
+      <div class="footer-section">
+        <h3>{{ 'FOOTER.BRAND.NAME' | translate }}</h3>
+        <p>{{ 'FOOTER.BRAND.DESCRIPTION' | translate }}</p>
+      </div>
+      <div class="footer-section">
+        <h3>{{ 'FOOTER.LEGAL.TITLE' | translate }}</h3>
+        <ul class="footer-links">
+          <li><a (click)="navigateToCancellationPolicy()">{{ 'FOOTER.LEGAL.CANCELLATION_POLICY' | translate }}</a></li>
+          <li><a (click)="navigateToTermsAndConditions()">{{ 'FOOTER.LEGAL.TERMS_AND_CONDITIONS' | translate }}</a></li>
+          <li><a (click)="navigateToPrivacyPolicy()">{{ 'FOOTER.LEGAL.PRIVACY_POLICY' | translate }}</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>{{ 'FOOTER.COMPANY.TITLE' | translate }}</h3>
+        <ul class="footer-links">
+          <li><a (click)="navigateToCommunityGuidelines()">{{ 'FOOTER.COMPANY.COMMUNITY_GUIDELINES' | translate }}</a></li>
+          <li><a (click)="navigateToAboutUs()">{{ 'FOOTER.COMPANY.ABOUT_US' | translate }}</a></li>
+          <li><a (click)="navigateToFaq()">{{ 'FOOTER.COMPANY.FAQS' | translate }}</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-section social-footer-section">
+      <h3>{{ 'FOOTER.SOCIAL.TITLE' | translate }}</h3>
+      <div class="social-links">
+        <a (click)="onClickTwitter()" aria-label="Twitter" target="_blank">
+          <img src="assets/images/twitter-x.svg" alt="Twitter"/>
+        </a>
+        <a (click)="onClickInstagram()" aria-label="Instagram" target="_blank">
+          <img src="assets/images/instagram.svg" alt="Instagram" />
+        </a>
+        <a (click)="onClickTikTok()" aria-label="TikTok" target="_blank">
+          <img src="assets/images/tiktok.svg" alt="TikTok" />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>{{ 'FOOTER.COPYRIGHT' | translate }}</p>
+  </div>
 </footer>
