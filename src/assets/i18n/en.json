@@ -130,5 +130,41 @@
         "ITEM_4": "The penalties and additional fees set out in the fourth clause of the terms and conditions apply to all cases related to delays or breaches of obligations by the parties according to this policy."
       }
     }
+  },
+  "PRIVACY_POLICY_PAGE": {
+    "TITLE": "Privacy Policy",
+    "HEADER_P": "Cruiz Platform is committed to protecting and respecting your privacy. We dedicate our efforts to providing an exceptional experience through our website and application, while ensuring the confidentiality of your personal information and complying with all applicable laws and regulations.",
+    "CARDS": {
+      "INFORMATION_WE_COLLECT": {
+        "TITLE": "Information we collect",
+        "ITEM_1": "We collect personal information that you voluntarily provide when you contact us or use our services, such as your name, email address, phone number, address, personal ID or any necessary documents.",
+        "ITEM_2": "We also collect non-personal information related to your use of the site to improve our services."
+      },
+      "HOW_WE_USE_INFORMATION": {
+        "TITLE": "How we use the information",
+        "ITEM_1": "Your data is used to deliver our services, communicate with you about offers and updates, marketing, and improving your experience.",
+        "ITEM_2": "It also helps us conduct research and studies to improve our services.",
+        "ITEM_3": "We do not sell or rent your data to third parties."
+      },
+      "DISCLOSURE_OF_INFORMATION": {
+        "TITLE": "Disclosure of information",
+        "DESC": "We may share your data with our partners or service providers within or outside the Kingdom of Saudi Arabia for the purposes of providing services or legal compliance, while safeguarding your privacy and information security."
+      },
+      "COOKIES": {
+        "TITLE": "Cookies",
+        "ITEM_1": "We use tracking technologies to enhance your browsing experience and personalize content.",
+        "ITEM_2": "You can configure your browser to accept or reject these files; however, this may affect some site functions."
+      },
+      "YOUR_RIGHTS": {
+        "TITLE": "Your Rights and Access to Information",
+        "ITEM_1": "You can request to view, update, or delete your personal data in accordance with regulations.",
+        "ITEM_2": "Some data may be retained for certain periods for legal or operational reasons."
+      },
+      "CHANGES": {
+        "TITLE": "Changes to the Privacy Policy",
+        "ITEM_1": "We reserve the right to modify the privacy policy as needed.",
+        "ITEM_2": "Any changes will be communicated to you through the platform."
+      }
+    }
   }
 }
