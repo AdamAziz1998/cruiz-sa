@@ -4,15 +4,16 @@ import { FooterComponent } from '../../common/components/footer/footer.component
 import { PageTemplateComponent } from '../../common/components/page-template/page-template.component';
 import { WhitePageBodyComponent } from '../../common/components/white-page-body/white-page-body.component';
 import { ExpandableCardComponent } from '../../common/components/expandable-card/expandable-card.component';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-frequently-asked-questions',
-  imports: [PageTemplateComponent, PageTemplateComponent, ExpandableCardComponent],
+  imports: [PageTemplateComponent, PageTemplateComponent, ExpandableCardComponent, TranslatePipe],
   templateUrl: './frequently-asked-questions.component.html',
   styleUrl: './frequently-asked-questions.component.scss',
 })
 export class FrequentlyAskedQuestionsComponent {
 
-  
+
 
 }
