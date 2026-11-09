@@ -1,0 +1,654 @@
+{
+  "HOME": {
+    "HERO": {
+      "TITLE": "Rent Cars from",
+      "TITLE_SPAN": "People Near You",
+      "SUBTITLE_1": "Skip the rental counter. Get the car you want from trusted locals in your community",
+      "SUBTITLE_2": "Fast Affordable Flexible",
+      "BUTTONS": {
+        "APP_STORE_COMING": "Get it soon on the",
+        "APP_STORE": "App Store",
+        "PLAY_STORE_COMING": "Coming soon to",
+        "PLAY_STORE": "Google Play"
+      }
+    },
+    "ABOUT": {
+      "TITLE": "How Cruiz Works",
+      "SUBTITLE": "Get on the road in three simple steps",
+      "STEPS": {
+        "ONE": {
+          "TITLE": "Browse Cars",
+          "DESC": "Explore a wide variety of vehicles from trusted local hosts. Filter by price, location, and features to find your perfect ride."
+        },
+        "TWO": {
+          "TITLE": "Book Instantly",
+          "DESC": "Reserve your car with just a few taps. Instant booking confirmation and secure payment processing make it hassle-free."
+        },
+        "THREE": {
+          "TITLE": "Drive Away",
+          "DESC": "Meet your host. Hit the road and enjoy your journey with complete peace of mind."
+        }
+      }
+    },
+    "CTA": {
+      "TITLE": "Ready to Hit the Road?",
+      "SUBTITLE": "Questions? We're here to help you get started with Cruiz.",
+      "CALL_US": "Call Us Now",
+      "EMAIL_US": "Email Us"
+    }
+  },
+  "FOOTER": {
+    "BRAND": {
+      "NAME": "Cruiz",
+      "DESCRIPTION": "Your trusted peer-to-peer car rental platform. Drive the car you want, when you want it."
+    },
+    "LEGAL": {
+      "TITLE": "Legal",
+      "CANCELLATION_POLICY": "Cancellation Policy",
+      "TERMS_AND_CONDITIONS": "Terms & Conditions",
+      "PRIVACY_POLICY": "Privacy Policy"
+    },
+    "COMPANY": {
+      "TITLE": "Our Company",
+      "COMMUNITY_GUIDELINES": "Community Guidelines",
+      "ABOUT_US": "About Us",
+      "FAQS": "FAQs"
+    },
+    "SOCIAL": {
+      "TITLE": "Follow us"
+    },
+    "COPYRIGHT": "© 2024 Cruiz. All rights reserved."
+  },
+  "CANCELLATION_POLICY_PAGE": {
+    "TITLE": "Cancellation Policy",
+    "CARDS": {
+      "CANCELLATION": {
+        "TITLE": "Cancellation",
+        "BY_RENTER": {
+          "TITLE": "Cancellation by the renter",
+          "ITEM_1": "The lessor specifies a time period during which the renter is eligible for a full refund of the paid amount if the cancellation occurs within this period.",
+          "ITEM_2": "If the renter cancels the reservation after the end of the period mentioned above, they are entitled to a refund of only half of the amount.",
+          "ITEM_3": "If the renter wishes to cancel after the start of the rental period, they are not entitled to any amount and must return the car immediately to the lessor.",
+          "ITEM_4": "If the renter does not show up to collect the vehicle at the appointed time without informing the lessor within a grace period not exceeding two hours, the reservation is automatically cancelled and the renter is not entitled to any refund."
+        },
+        "BY_LESSOR": {
+          "TITLE": "Cancellation by the lessor",
+          "ITEM_1": "The lessor has the right to cancel the reservation before the start of the rental period for a legitimate reason such as (but not limited to) establishing that the renter is not qualified or has provided incorrect information; this is subject to review and evaluation by Cruiz platform.",
+          "ITEM_2": "If the lessor cancels the reservation for illegitimate reasons or delays delivery for more than two hours, the renter is entitled to a full refund of the paid amount without any deduction, a fine of 1000 Saudi riyals is imposed on the lessor, and the Cruiz platform and the renter reserve the right to claim any additional compensation resulting from this breach."
+        }
+      },
+      "MODIFICATION": {
+        "TITLE": "Modification",
+        "ITEM_1": "A reservation modification can be requested before the start of the rental period, subject to the lessor's approval, and the platform may impose additional modification fees."
+      },
+      "REFUND": {
+        "TITLE": "Refund",
+        "ITEM_1": "Refunds are processed through the same payment method used for the booking within a period not exceeding seven working days.",
+        "ITEM_2": "Refunds are applied according to the above clauses and depending on the cancellation status; otherwise, the user has no right to recover any amounts."
+      },
+      "GENERAL_PROVISIONS": {
+        "TITLE": "General Provisions",
+        "ITEM_1": "In the event of a dispute or a claim for a refund after cancellation, either party may submit a complaint through the application via the Cruise platform's customer service.",
+        "ITEM_2": "If any user (lessor or renter) is late for the agreed time due to an error in registration or providing incorrect information, the Cruise platform bears no responsibility for this delay, and the other party is not held responsible or liable for any consequences arising from that.",
+        "ITEM_3": "The Cruise platform reserves the right to review any request for a refund or cancellation and verify its validity before making a final decision.",
+        "ITEM_4": "The penalties and additional fees set out in the fourth clause of the terms and conditions apply to all cases related to delays or breaches of obligations by the parties according to this policy."
+      }
+    }
+  },
+  "PRIVACY_POLICY_PAGE": {
+    "TITLE": "Privacy Policy",
+    "HEADER_P": "Cruiz Platform is committed to protecting and respecting your privacy. We dedicate our efforts to providing an exceptional experience through our website and application, while ensuring the confidentiality of your personal information and complying with all applicable laws and regulations.",
+    "CARDS": {
+      "INFORMATION_WE_COLLECT": {
+        "TITLE": "Information we collect",
+        "ITEM_1": "We collect personal information that you voluntarily provide when you contact us or use our services, such as your name, email address, phone number, address, personal ID or any necessary documents.",
+        "ITEM_2": "We also collect non-personal information related to your use of the site to improve our services."
+      },
+      "HOW_WE_USE_INFORMATION": {
+        "TITLE": "How we use the information",
+        "ITEM_1": "Your data is used to deliver our services, communicate with you about offers and updates, marketing, and improving your experience.",
+        "ITEM_2": "It also helps us conduct research and studies to improve our services.",
+        "ITEM_3": "We do not sell or rent your data to third parties."
+      },
+      "DISCLOSURE_OF_INFORMATION": {
+        "TITLE": "Disclosure of information",
+        "DESC": "We may share your data with our partners or service providers within or outside the Kingdom of Saudi Arabia for the purposes of providing services or legal compliance, while safeguarding your privacy and information security."
+      },
+      "COOKIES": {
+        "TITLE": "Cookies",
+        "ITEM_1": "We use tracking technologies to enhance your browsing experience and personalize content.",
+        "ITEM_2": "You can configure your browser to accept or reject these files; however, this may affect some site functions."
+      },
+      "YOUR_RIGHTS": {
+        "TITLE": "Your Rights and Access to Information",
+        "ITEM_1": "You can request to view, update, or delete your personal data in accordance with regulations.",
+        "ITEM_2": "Some data may be retained for certain periods for legal or operational reasons."
+      },
+      "CHANGES": {
+        "TITLE": "Changes to the Privacy Policy",
+        "ITEM_1": "We reserve the right to modify the privacy policy as needed.",
+        "ITEM_2": "Any changes will be communicated to you through the platform."
+      }
+    }
+  },
+  "TERMS_AND_CONDITIONS_PAGE": {
+    "TITLE": "Terms & Conditions",
+    "CARDS": {
+      "PREAMBLE": {
+        "TITLE": "Preamble",
+        "P1": "The Cruiz platform strives to deliver its services at the highest quality levels and to provide full support to its customers to ensure a unique and distinguished user experience. Pursuant to this commitment, we present to you the terms and conditions governing the use of the application/website.",
+        "P2": "Using this application/website constitutes express acceptance of all the provisions and conditions contained in this document. If you do not agree to any of these conditions, please refrain from using the application/website.",
+        "P3": "For the purposes of these terms and conditions, the following terms have the meanings indicated next to each of them unless the context requires otherwise:",
+        "L1_BOLD": "Platform / Cruiz / We:",
+        "L1_DESC": "refers to the Cruiz platform as the owner and operator of the application and website and the related services.",
+        "L2_BOLD": "User / you / users:",
+        "L2_DESC": "any natural or legal person who uses the application and/or website to list vehicles for rent, rent them, or browse the content.",
+        "L3_BOLD": "Lessor / host:",
+        "L3_DESC": "the individual or company who registers a vehicle on the platform and offers it for rent, and is responsible for providing it at the agreed time and condition, while complying with all approved terms and policies.",
+        "L4_BOLD": "Renter / guest:",
+        "L4_DESC": "the individual or entity that books a vehicle through the platform and uses it during the agreed period, abiding by the applicable terms and policies.",
+        "L5_BOLD": "Booking:",
+        "L5_DESC": "the process by which the renter selects an available vehicle for rent via the platform, pays the due amount, and receives confirmation from the lessor.",
+        "L6_BOLD": "Platform policies:",
+        "L6_DESC": "all policies announced by Cruiz, including the privacy policy, the cancellation and refund policy, and any other policies related to the services.",
+        "L7_BOLD": "Vehicle / car:",
+        "L7_DESC": "any car listed on the platform by the lessor for rental to the renter, in accordance with the regulations in the Kingdom of Saudi Arabia and the rules of the Cruiz platform."
+      },
+      "GENERAL_ACKNOWLEDGMENTS": {
+        "TITLE": "General Acknowledgments",
+        "P1": "By using the application and/or the website, you acknowledge and agree to:",
+        "L1": "That you have read, understood, and agreed to comply with all the terms and conditions stated in this document and any subsequent updates.",
+        "L2": "That you have full legal capacity to use the application and/or website and to enter into contracts and obligations under the regulations in force in the Kingdom of Saudi Arabia.",
+        "L3": "That you will use the platform only for legitimate purposes and not in violation of any law, regulation, or effective decision.",
+        "L4": "That you will not misuse the platform in any way, including but not limited to using misleading information, violating traffic regulations, damaging rented vehicles, or mistreating other users.",
+        "L5": "That you agree to the Privacy Policy, the Cancellation and Refund Policy, and any other policies adopted by the Cruiz platform within its services. These policies form an integral part of the terms of use and are binding upon you when using the platform.",
+        "L6": "That the Cruiz platform reserves the right to modify or update the terms and conditions at any time and will notify you via communication channels or within the application. Continuing to use the platform after modifications constitutes implicit acceptance of them.",
+        "L7": "That all contracts and understandings executed via the application or website are considered electronically signed, and both the lessor and the renter ensure their validity and consider them legally binding.",
+        "L8": "That Cruiz does not guarantee the safety of the vehicle or that it is free from damage; the company's role is limited to acting as an intermediary only, without any responsibility towards either the lessor or the renter."
+      },
+      "CREATING_ACCOUNT": {
+        "TITLE": "Creating an Account",
+        "L1_BOLD": "Registration requirements:",
+        "L1_DESC": "To use the services of the Cruiz platform, the user must create a personal account through the application or the website and provide accurate and complete information, including, for example: full name, mobile number, and email.",
+        "L2_BOLD": "Eligibility for registration:",
+        "L2_DESC": "The user confirms that:",
+        "L2_1": "They are 21 years of age or older.",
+        "L2_2": "They have full legal capacity to enter into contracts under the regulations in force in the Kingdom of Saudi Arabia.",
+        "L2_3": "They are not legally prohibited from using or dealing with the platform.",
+        "L3_BOLD": "Accuracy of information:",
+        "L3_DESC": "The user commits to maintaining the accuracy and correctness of the information provided during registration and to update it immediately upon any change. The platform has the right to suspend or terminate the account if it finds any inaccurate or misleading information.",
+        "L4": "Users must update their data and documents continuously. If any document expires such as a driver's license, the account will be temporarily suspended until a new valid copy is provided."
+      },
+      "USING_APPLICATION": {
+        "TITLE": "Using the Application",
+        "LESSOR": {
+          "TITLE": "Use by the Lessor (Host)",
+          "P1": "When listing a vehicle on the platform, the lessor must provide the following data and documents:",
+          "L1_BOLD": "Vehicle details:",
+          "L1_DESC": "make, manufacturer, model, year of manufacture, number of seats, color, transmission type, vehicle features, and insurance information.",
+          "L2_BOLD": "Rental details:",
+          "L2_DESC": "specify the car pick-up location, whether delivery is offered, allowed mileage, daily rental price, period allowed for cancellation without fees, and discount rate for weekly or monthly bookings.",
+          "L3_BOLD": "Vehicle photos:",
+          "L3_DESC": "a main display photo, a front photo, a right-side photo, a rear photo, a left-side photo, a photo of the front seats, a photo of the back seats, and up to three optional additional photos.",
+          "L4_BOLD": "Damage declaration:",
+          "L4_DESC": "state whether the vehicle has any damage (yes/no). If there is minor damage that does not affect performance, the lessor must mention it when listing the vehicle and attach a photo of the damage.",
+          "L5_BOLD": "Required documents:",
+          "L5_DESC": "vehicle registration (proof of ownership), periodic technical inspection certificate if the car is more than three years old, and the vehicle insurance certificate."
+        },
+        "RENTER": {
+          "TITLE": "Use by the Renter",
+          "P1": "When using the application or website, the renter must provide the following data and documents depending on their status:",
+          "L1_BOLD": "For Saudi citizens and residents:",
+          "L1_DESC": "name as on the national ID or residence card, date of birth, ID or residence number, a copy of the ID or residence permit, a valid driver's licence, and a personal photo.",
+          "L2_BOLD": "For foreigners (non-residents):",
+          "L2_DESC": "name as on the passport, date of birth, passport number, a valid passport, a valid international driver's licence, and a personal photo.",
+          "P2": "Vehicle selection: The renter browses the vehicles listed on the application or website and chooses a suitable vehicle based on the type and specifications, the number of rental days required, and the vehicle's location."
+        },
+        "DELIVERY": {
+          "TITLE": "Pick-Up and Delivery",
+          "L1_BOLD": "Before delivery:",
+          "L1_DESC": "The lessor must take recent and clear photos of the vehicle from all sides (other than the photos attached in the listing), include photos showing the odometer reading and fuel level (fuel must be full), ensure that the vehicle is clean and fit for use and has undergone necessary maintenance, and arrive at the time and place specified in the booking.",
+          "L2_BOLD": "At pick-up:",
+          "L2_DESC": "The renter must arrive at the time and place specified, take photos of the vehicle from all sides before receiving it—including the odometer and fuel level. The renter's acceptance of the vehicle constitutes an explicit acknowledgment that it is in good condition and free of damages not mentioned by the lessor.",
+          "L3_BOLD": "At return:",
+          "L3_DESC": "The renter must return the vehicle at the specified time and place, pay any delay fees via the platform if the return time exceeds the schedule, return the vehicle with the same fuel level and technical condition as at pick-up, and take photos of the vehicle at return showing the odometer and fuel level.",
+          "L4_BOLD": "After return:",
+          "L4_DESC": "The lessor must photograph the vehicle immediately upon receiving it via the application, showing any damages, additional mileage, or fuel shortage if any. No claim of damage or violations is accepted after completion of delivery and closing the order unless documented at this stage. The lessor's acceptance of the vehicle from the renter without reservation constitutes an explicit acknowledgment that the vehicle is in good condition and free from damages."
+        }
+      },
+      "PENALTIES": {
+        "TITLE": "Penalties and Additional Fees",
+        "P1": "Penalties and additional fees apply when the renter or lessor breaches their obligations as outlined in the usage mechanism.",
+        "RENTER": {
+          "TITLE": "Penalties for the Renter",
+          "L1_BOLD": "Late arrival for pick-up:",
+          "L1_1": "A grace period of 30 minutes is allowed beyond the scheduled pick-up time.",
+          "L1_2": "After the grace period, the lessor may impose a delay fee per hour; these fees must not exceed half the daily rental value if the vehicle is picked up later the same day.",
+          "L1_3": "If the delay exceeds two hours, the lessor may cancel the booking and calculate the cancellation fee according to the announced cancellation policy.",
+          "L2_BOLD": "Late return of the vehicle:",
+          "L2_1": "The renter must return the vehicle on time; a 30-minute grace period is allowed.",
+          "L2_2": "After the grace period, a delay fee is charged per hour, and a full extra day is charged if the delay exceeds two hours.",
+          "L2_3": "If the delay exceeds two hours, the case is considered a severe delay. The lessor or the platform may notify the authorities to recover the vehicle, and the renter bears all fees, fines, and compensation resulting from the delay. The rent for any extra day is charged at double the agreed daily rate in addition to any other fees according to the platform policy.",
+          "L3_BOLD": "Other penalties:",
+          "L3_1": "If the renter exceeds the allowed mileage, excess kilometer fees apply: SAR 1 per extra kilometer for the first 0-100 km; SAR 2 per kilometer for more than 100 km.",
+          "L3_2": "If the renter returns the vehicle with less fuel than at pick-up, a SAR 100 penalty is applied."
+        },
+        "LESSOR": {
+          "TITLE": "Penalties for the Lessor",
+          "L1_BOLD": "Late delivery to the renter:",
+          "L1_1": "A 30-minute grace period is allowed. After that, the renter may request a discount equal to 10 % of the daily rental value for each hour of delay, up to a maximum of half the daily rental value if the car is delivered on the same day.",
+          "L1_2": "If the delay exceeds two hours, the renter may cancel the booking and receive a full refund, and the platform may collect a SAR 1,000 fine from the lessor for breaching their obligations.",
+          "L1_3": "The lessor must deliver the vehicle in good, usable condition free of defects that affect safety. If the vehicle is delivered in a condition not matching the agreed specifications or with defects affecting use, the renter may cancel the booking and receive a full refund, and the platform may collect a SAR 1,000 fine from the lessor.",
+          "L2_BOLD": "Late pick-up by the lessor:",
+          "L2_DESC": "A 30-minute grace period is allowed to collect the car at the end of the rental; after that, the renter may request a discount equal to 10 % of the daily rental value per hour, up to a maximum of half the daily rental value if the vehicle is collected the same day."
+        },
+        "GENERAL": {
+          "TITLE": "General Provisions",
+          "L1": "Penalties and fees are automatically deducted from amounts due to the breaching party or collected through the approved payment methods on the platform. If unpaid, the platform may pursue collection through the judicial authorities in Saudi Arabia.",
+          "L2": "No penalties or additional fees are waived.",
+          "L3": "The platform may update the penalty and fee schedule at any time, with users notified via the application or website."
+        }
+      },
+      "BOOKING_AND_PAYMENT": {
+        "TITLE": "Booking and Payment Terms",
+        "L1_BOLD": "Booking mechanism:",
+        "L1_DESC": "Users can view available vehicles and book them for suitable dates and options. Booking is confirmed only after the lessor accepts and the renter completes payment via the approved payment methods.",
+        "L2_BOLD": "Payment:",
+        "L2_DESC": "The amount due is collected in advance via electronic payment methods. The amount paid includes the rental value, platform commission, value-added tax, and any additional fees specified by the lessor (such as delivery service).",
+        "L3_BOLD": "Platform commission:",
+        "L3_DESC": "The Cruiz platform charges a fixed commission of 15 % on each successful booking, automatically deducted from the paid amount. The remaining amount is transferred to the lessor's account on the first day of the following month for rentals completed in the previous month. The platform may delay the transfer in case of a dispute or request for clarification. The platform provides detailed reports showing the booking, collected amounts, and deducted commission.",
+        "L4_BOLD": "Booking confirmation and communication:",
+        "L4_DESC": "Electronic booking confirmation via the application constitutes a binding contract between the lessor and the renter. Communication between the parties is available within the platform only after the booking is accepted.",
+        "L5_BOLD": "Modifications:",
+        "L5_DESC": "A booking can be extended or modified subject to car availability and the lessor's approval; otherwise, it cannot be extended or modified. Extension and modification are subject to additional fees.",
+        "L6_BOLD": "Platform liability disclaimer:",
+        "L6_DESC": "The Cruiz platform is not a direct party to the contract between the renter and the lessor; it acts only as a broker to facilitate booking and payment. The platform assumes no direct responsibility for delays or damages caused by either party.",
+        "L7_BOLD": "Deposit:",
+        "L7_DESC": "A refundable security deposit must be paid to the company's account to cover any violations or damages. This amount is retained in the company's account for two weeks after the rental period ends. Comprehensive insurance is mandatory on all rented vehicles to cover potential losses and protect the lessor from compensation claims if an accident occurs."
+      },
+      "RESPONSIBILITIES": {
+        "TITLE": "Responsibilities and Warranties",
+        "P1": "The user bears full responsibility for their use of the application or website and for all activities through their account. Some specific obligations include:",
+        "L1_BOLD": "Lessor responsibility:",
+        "L1_DESC": "The lessor must ensure the vehicle's fitness and safety before delivery, including regular technical inspection, insurance, and cleanliness. The lessor must not list vehicles they do not legally own or have the right to rent. The lessor is responsible for any legal violation related to the vehicle outside the rental period. The lessor must photograph the car at pick-up and return.",
+        "L2_BOLD": "Renter responsibility:",
+        "L2_DESC": "The renter must use the car for the agreed purpose without misuse, negligence, or illegal activities. They must comply with traffic laws and regulations when driving. The renter must notify the relevant authorities (traffic or Najm) in case of any accident or damage to the car and immediately inform the platform and the lessor. The renter must photograph the car at pick-up and return.",
+        "L3_BOLD": "Platform (Cruiz) responsibility:",
+        "L3_DESC": "Cruiz acts as a technical intermediary between lessors and renters and does not bear direct responsibility for implementing agreements between the parties. The platform does not guarantee continuous availability of vehicles, compliance with booking or rental terms, or the absence of damages, accidents, or technical malfunctions. The platform disclaims liability for any direct or indirect losses or damages arising from the use or inability to use the application, website, or vehicle."
+      },
+      "INTELLECTUAL_PROPERTY": {
+        "TITLE": "Intellectual Property",
+        "P1": "All intellectual property rights related to Cruiz, including the trade name, trademark, logo, designs, texts, images, videos, user interface, source code, and databases, are the exclusive property of the platform and are protected under the intellectual property laws of Saudi Arabia and relevant international agreements.",
+        "L1": "It is prohibited to copy, republish, distribute, modify, or create derivative works from any part of the platform's content without prior written consent from Cruiz.",
+        "L2": "Users may use the application and/or website and their content for personal and legitimate purposes only, in accordance with the terms of use.",
+        "L3": "Using the content for any commercial, advertising, or competitive purpose is prohibited without explicit written permission from the platform."
+      },
+      "TERMINATION": {
+        "TITLE": "Termination or Suspension of the Account",
+        "P1": "Cruiz reserves the right to suspend, cancel, or restrict the user's account access, temporarily or permanently, at any time and without prior notice if it determines that the user has:",
+        "L1_1": "Violated any provision of these terms and conditions or any related policies.",
+        "L1_2": "Provided false or misleading information during registration or use of the platform.",
+        "L1_3": "Misused the platform or caused physical or moral damage to another user or to rented vehicles.",
+        "L2_BOLD": "User's right to termination:",
+        "L2_DESC": "Users may request cancellation of their account at any time through account settings or by contacting customer service. Termination or suspension does not relieve the user from any financial or legal obligations incurred before the termination date."
+      },
+      "DISPUTES": {
+        "TITLE": "Disputes",
+        "P1": "These terms and conditions, any related policies, and any dispute or claim arising from or related to the use of the Cruiz platform are subject to and interpreted according to the laws and regulations of the Kingdom of Saudi Arabia.",
+        "L1": "If any provision conflicts with applicable laws or regulations, that provision shall be considered void only, without affecting the validity or continuation of the remaining terms and conditions.",
+        "L2": "The user and the platform will seek to resolve any dispute amicably; otherwise, the dispute will be referred to the competent judicial authorities in the city of Riyadh, Saudi Arabia.",
+        "L3": "Arabic is the official language for interpreting and applying these terms and conditions and for all legal procedures and correspondence related to this contract. In the event of any conflict or difference between the Arabic text and any text in another language, the Arabic text prevails.",
+        "L4": "Cruiz assumes no responsibility for any delay or failure in performance resulting from circumstances beyond reasonable control, including but not limited to natural disasters, health crises, system or communication outages, or security or political events."
+      }
+    }
+  },
+  "FAQ_PAGE": {
+    "TITLE": "Frequently Asked Questions",
+    "CARDS": {
+      "GENERAL": {
+        "TITLE": "General",
+        "Q1": "How do I create an account on the app?",
+        "A1": "You can create an account by clicking on \"create account\" then entering your personal information (such as full name, phone number, and email).",
+        "Q2": "Can I sign up using my Google account?",
+        "A2": "Yes, you can sign up with your google account.",
+        "Q3": "Is my personal information safe on the platform?",
+        "A3": "Yes. All personal data is protected under privacy and data security regulations.",
+        "Q4": "Can I change my registered phone number or email address?",
+        "A4": "Yes. You can update your contact details from your account settings. A verification step may be required.",
+        "Q5": "How do I reset my password?",
+        "A5": "If you forget your password, click “Forgot Password” on the login screen. You'll receive a verification code via email to create a new password.",
+        "Q6": "How can I contact customer service?",
+        "A6": "You can contact customer service through the live chat feature in the app or through a phone call by clicking on contact customer service.",
+        "Q7": "What should I do if I forget my password?",
+        "A7": "Follow the “Forgot Password” process on the login screen to reset it securely.",
+        "Q8": "How can I update my personal information?",
+        "A8": "Go to your account settings in the app, where you can edit details such as your name, address, and contact information.",
+        "Q9": "Can I have multiple accounts?",
+        "A9": "Each user is only allowed one account per person for compliance purposes.",
+        "Q10": "How do I delete my account?",
+        "A10": "Go to your account settings then click on delete my account. Your information will be stored even after you delete your account for safety purposes."
+      },
+      "HOSTS": {
+        "TITLE": "Hosts",
+        "Q1": "How do I create a host account?",
+        "A1": "Download the Cruiz host app then follow the registration steps to creating the account by submitting the required documents and completing the host verification process within the app.",
+        "Q2": "What documents are required to verify my account as a host?",
+        "A2": "You will need to submit a valid Saudi ID, vehicle registration and insurance documents.",
+        "Q3": "How long does it take to get verified as a host?",
+        "A3": "It will take between 2 to 3 business days to verify the account.",
+        "Q4": "Can I switch my account from guest to host?",
+        "A4": "You can not switch the account but you can create a new account in Cruiz Host app and just provide additional documents for the verification process.",
+        "Q5": "What happens if my account verification is denied?",
+        "A5": "You'll receive an email with the reason for rejection. You can correct the issue (e.g. submit clearer documents) and reapply.",
+        "Q6": "Can I register as a host if I don't live in Saudi Arabia?",
+        "A6": "No. The App currently only functions in Saudi Arabia",
+        "Q7": "How can I verify my vehicle ownership?",
+        "A7": "By uploading your vehicle's registration document under your name or your company's name.",
+        "Q8": "What happens if I change my phone number or email?",
+        "A8": "You can update this information in your account settings. A verification process will follow to confirm the change.",
+        "Q9": "How do I list my vehicle on the platform?",
+        "A9": "Once verified as a host, you can list your vehicle by clicking on add vehicle on my fleet page. You would then have to enter the vehicle details (make, model, year, photos).",
+        "Q10": "What documents are required to list my vehicle?",
+        "A10": "vehicle registration, Insurance document and an inspection certificate if your vehicle make is 3 years old or more.",
+        "Q11": "Are there any mileage restrictions?",
+        "A11": "The minimum limit for the maximum mileage selected by the host is 100km",
+        "Q12": "Can I list more than one vehicle?",
+        "A12": "You are only allowed to list one vehicle as an individual according to the regulations of the transport general authority.",
+        "Q13": "Can I set my own rental price?",
+        "A13": "Yes, you can set your own price within the acceptable range for the vehicle model",
+        "Q14": "Is there a minimum rental period for my vehicle?",
+        "A14": "The minimum rental period is one day.",
+        "Q15": "How do I update my vehicle's availability?",
+        "A15": "You can manage availability using the calendar feature within the vehicle settings to block out days or open new dates for booking.",
+        "Q16": "Can I unlist my vehicle temporarily without deleting its information?",
+        "A16": "Yes, you can unlist from the vehicle settings.",
+        "Q17": "How is the rental price calculated?",
+        "A17": "The rental price is calculated by using the rental rate (set by the host) + VAT + platform service fee + optional add-ons (eg. vehicle delivery service).",
+        "Q18": "Can I offer discounts for long-term bookings?",
+        "A18": "You can offer a weekly or monthly discount fee through the vehicle settings.",
+        "Q19": "Are there extra charges for premium features like GPS or child seats?",
+        "A19": "No, you cannot add extra charges to vehicle. However, having these premium features with the vehicle would increase the rate at which the vehicle is rented.",
+        "Q20": "When do I receive payment after rental?",
+        "A20": "Once the guest confirms the booking and pays for the fees, the payment will be held by cruiz for 1 week or until the rent period starts whichever one comes first then you will receive the payment automatically.",
+        "Q21": "Can I change my payment method?",
+        "A21": "You can update your preferred payment method in your account settings.",
+        "Q22": "Are there any platform service fees?",
+        "A22": "Yes. The platform will add 15% service fee to each completed booking.",
+        "Q23": "How do I issue a refund to a guest?",
+        "A23": "The host cannot refund the guest. If the guest encounters any trouble the customer service team will resolve their issue.",
+        "Q24": "What happens if a guest cancels their booking?",
+        "A24": "If the guest cancels the booking within the cancellation period set by the host, the full amount will be refunded. If the guest cancels the booking after the period set by the host, only part of the amount will be refunded.",
+        "Q25": "Can I charge additional fees for extra mileage?",
+        "A25": "Yes, you can charge for extra mileage but the price for every extra kilometer is set by Cruiz.",
+        "Q26": "What happens if I receive a late payment?",
+        "A26": "Payment is collected from the guest upfront by the platform, you may need to check with your bank if the payment took longer than a week.",
+        "Q27": "How does VAT affect my earnings?",
+        "A27": "The VAT is a tax put on goods by the Zakat, Tax and Customs Authority. It will be added to the rental price, it will not be taken from your earnings.",
+        "Q28": "How do I report damage caused by a renter?",
+        "A28": "You should report damages through the app or customer service as soon as the rental ends. You'll need to provide photo evidence and a damage report.",
+        "Q29": "Who is responsible for insurance claims?",
+        "A29": "Your vehicle should be insured by an insurance company; any claims should be directed to them.",
+        "Q30": "What happens if the guest is involved in an accident?",
+        "A30": "The guest should report the accident immediately. You will be notified, and the platform will guide both parties through the next steps.",
+        "Q31": "What happens if the guest violates traffic laws while using my vehicle?",
+        "A31": "Once the guest picks up the vehicle, it will be automatically delegated to the guest through Absher. Therefore, if there are any traffic violations during the rental period, the guest will be fined.",
+        "Q32": "How do I accept or decline a booking request?",
+        "A32": "You'll receive a notification through the app. You can accept or reject it through your dashboard.",
+        "Q33": "Can I set restrictions on who can book my vehicle?",
+        "A33": "You cannot restrict the guests.",
+        "Q34": "What should I do if I need to cancel a booking?",
+        "A34": "You can cancel from your dashboard, but frequent cancellations may affect your host rating. Always try to cancel with advance notice.",
+        "Q35": "Will I be penalized for canceling a booking?",
+        "A35": "If you cancel a booking for no legitimate reason or cancel the bookings consistently, your account will be suspended.",
+        "Q36": "What happens if a guest returns my vehicle late?",
+        "A36": "You'll be compensated for late returns.",
+        "Q37": "Can I extend a booking if the guest requests it?",
+        "A37": "Yes, if the vehicle is available. Both parties must confirm the extension and the new payment terms through the app.",
+        "Q38": "How do I communicate with a guest before pickup?",
+        "A38": "You'll have access to in-app messaging once the booking is confirmed.",
+        "Q39": "Where should I meet the guest for pickup?",
+        "A39": "You can either restrict the guest to come pick up the vehicle from the pickup location or deliver it to a location he chooses within the city.",
+        "Q40": "Can I offer vehicle delivery to the guest's location?",
+        "A40": "Yes, if you choose to offer this service.",
+        "Q41": "How do I handle late pickups by the guest?",
+        "A41": "Contact the guest and report the late pickup to customer service.",
+        "Q42": "What should I do if my vehicle is returned dirty?",
+        "A42": "Take photos and report them to customer service.",
+        "Q43": "Who is responsible for refueling the vehicle?",
+        "A43": "The guest is expected to return the vehicle with the same fuel level as when they received it.",
+        "Q44": "What condition should the vehicle be in when returned?",
+        "A44": "The vehicle should be in the same condition as it was at pickup.",
+        "Q45": "Can I inspect my vehicle before accepting it back?",
+        "A45": "Yes, and it's highly recommended. Take photos and document any issues before approving the return in the app.",
+        "Q46": "What happens if there's a dispute over the vehicle's condition?",
+        "A46": "Report the dispute to customer service with time-stamped before/after photos. The platform will mediate based on the evidence provided.",
+        "Q47": "How do I document any damages upon return?",
+        "A47": "Use the app or your phone to take high-quality, time-stamped photos and submit a report through the platform.",
+        "Q48": "How much do I pay the app for renting my vehicle?",
+        "A48": "The platform will not charge the host, the platform adds a service fee on each booking transaction.",
+        "Q49": "Can I cancel a booking if I feel uncomfortable with the guest?",
+        "A49": "Yes, and you will be asked to give a reason. Ideally you should reject the booking request before the confirmation, Repeated cancellations may affect your host ratings.",
+        "Q50": "What happens if a guest cancels last minute?",
+        "A50": "The host can set a cancellation period that restricts last-minute cancellations.",
+        "Q51": "To whom do I report damage that I believe the guest caused to my vehicle?",
+        "A51": "You should report them to customer service immediately with photos and documentation.",
+        "Q52": "What happens if the guest files a false claim against me?",
+        "A52": "The platform will review all evidence from both sides. If your documentation is strong, false claims will be rejected.",
+        "Q53": "How do I report a guest for violating platform policies?",
+        "A53": "Contact customer service directly with full details and evidence.",
+        "Q54": "Can I appeal penalties or fines applied to my vehicle during a rental period?",
+        "A54": "Yes, provide documentation showing that the guest was responsible during that time.",
+        "Q55": "What is the platform's policy on no-shows?",
+        "A55": "The vehicle will remain with the host until he is able to pick up the vehicle during the rental period.",
+        "Q56": "How long does it take to resolve disputes between hosts and guests?",
+        "A56": "The standard is within 3 business days.",
+        "Q57": "Who handles disputes between hosts and guests?",
+        "A57": "Customer service mediates disputes by reviewing evidence from both sides and applying platform policies.",
+        "Q58": "Can I leave a review for a guest?",
+        "A58": "Yes. After each completed booking, you'll have the option to rate and review the guest.",
+        "Q59": "Can guests leave reviews for me as a host?",
+        "A59": "Yes. Guests can rate their experience with your vehicle, communication, and service.",
+        "Q60": "Can I respond to a negative review?",
+        "A60": "No, you will not be able to reply or delete negative reviews.",
+        "Q61": "How are host ratings calculated?",
+        "A61": "Ratings are based on guest reviews and metrics like response time, cancellation rate, and overall experience.",
+        "Q62": "What should I do if I receive an unfair review?",
+        "A62": "Flag the review to be reviewed by customer service. If it violates guidelines, it may be removed.",
+        "Q63": "Can I delete a review left by a guest?",
+        "A63": "No, but you can report it if it contains false or inappropriate content.",
+        "Q64": "Will low ratings affect my ability to list vehicles?",
+        "A64": "Yes, consistently low ratings may lower your visibility or result in account review or suspension.",
+        "Q65": "What should I do if I can't access my host account?",
+        "A65": "Try resetting your password or contact customer service to help regain access.",
+        "Q66": "How do I update my vehicle details on the app?",
+        "A66": "Log into your host dashboard, go to your vehicle listing, and update the necessary fields (photos, description, features, etc.).",
+        "Q67": "What if my vehicle listing isn't showing up for guests?",
+        "A67": "Check your availability calendar and account status. If everything looks correct, contact customer service for assistance.",
+        "Q68": "How can I update my payment information?",
+        "A68": "Go to your account settings and select your payout method.",
+        "Q69": "What should I do if I encounter a technical issue during a booking?",
+        "A69": "Contact customer service immediately for live assistance.",
+        "Q70": "Can I pause my account temporarily?",
+        "A70": "You will not be able to pause the account temporarily, but you can unlist the vehicle temporarily from the vehicle listing settings.",
+        "Q71": "Are there additional requirements for luxury vehicle listings?",
+        "A71": "vehicle listing requirements are applied for all the vehicles equally.",
+        "Q72": "Can tourists rent my vehicle?",
+        "A72": "Yes, and they have a different verification process that ensures they will comply with platform guidelines."
+      },
+      "GUESTS": {
+        "TITLE": "Guests",
+        "Q1": "How do I create a guest account?",
+        "A1": "You can create an account by downloading the app and signing up with your name, email, phone number, and a valid ID and driver's license.",
+        "Q2": "Can I rent a vehicle if I'm not a Saudi resident?",
+        "A2": "Yes, if you have an International Driver's Permit (IDP).",
+        "Q3": "What's the age requirement for renting a vehicle?",
+        "A3": "The minimum age requirement for renting a vehicle is 21.",
+        "Q4": "How do I upload my driver's license?",
+        "A4": "After you register in the app you will be able to verify your account from the settings menu. During the verification process you'll be asked to upload a picture of your license. Make sure the image is clear and shows all the required details.",
+        "Q5": "Can I use an international driver's license?",
+        "A5": "Yes, if it is recognized by Saudi authorities and is valid during the rental period.",
+        "Q6": "What do I do if my account verification is rejected?",
+        "A6": "You'll be notified of the reason. Correct the issue (e.g., upload a clearer photo or update missing information) and resubmit.",
+        "Q7": "How do I search for available vehicles?",
+        "A7": "Use the search feature in the app. You can filter results by location, date, vehicle type, price, or other specific features.",
+        "Q8": "Can I filter search results by vehicle type or price?",
+        "A8": "Yes, filters are available to narrow your results by type (e.g., SUV, sedan), price range, etc.",
+        "Q9": "How do I check a vehicle's availability?",
+        "A9": "Each listing has a calendar showing available dates. You can only book on dates that are marked as available.",
+        "Q10": "Can I book a vehicle for someone else?",
+        "A10": "No, you cannot. If you rent a vehicle, the rental contract will be under your name.",
+        "Q11": "How do I contact the host before booking?",
+        "A11": "You cannot contact a host before booking, after you successfully book a vehicle, the host contact information will appear, and you will be able to contact the host in the app.",
+        "Q12": "How do I know if a vehicle is insured?",
+        "A12": "All vehicles listed must meet platform insurance requirements.",
+        "Q13": "Can I book a vehicle for long-term use?",
+        "A13": "Yes, and you may even have a discount. Just select the start and end date when booking.",
+        "Q14": "How do I confirm a booking?",
+        "A14": "Once you select a vehicle and submit your request, the host can either accept or reject it, you'll receive confirmation automatically after the host has accepted your request.",
+        "Q15": "Can I cancel my booking?",
+        "A15": "Yes, you can cancel within the free cancellation period applied by the host.",
+        "Q16": "Are there any cancellation fees?",
+        "A16": "There are no cancellation fees, but if you cancel after the free cancellation period you will only have part of the money refunded.",
+        "Q17": "Can I extend my booking after it starts?",
+        "A17": "Yes, if the vehicle is still available for the extended period and the host approves the extension. Additional charges will apply.",
+        "Q18": "What happens if the host cancels my booking?",
+        "A18": "You will be notified, and your payment will be fully refunded.",
+        "Q19": "Can I change my pickup or drop-off location?",
+        "A19": "Yes, after agreeing with the host on a new location.",
+        "Q20": "What should I do if I'm running late for pickup?",
+        "A20": "Inform the host immediately.",
+        "Q21": "How do I request an early return?",
+        "A21": "Contact the host and request an early return. However, you will not be refunded for the unused time.",
+        "Q22": "Can I change the booking duration after starting?",
+        "A22": "Yes, if both you and the host agree. You'll need to request the change through the app, and pricing will adjust accordingly.",
+        "Q23": "Can I book multiple vehicles at once?",
+        "A23": "You are allowed to book more than one vehicle at once, but you must be the only one allowed to drive the vehicle booked.",
+        "Q24": "What payment methods are accepted?",
+        "A24": "Credit/debit cards and Apple Pay.",
+        "Q25": "When will I be charged for my booking?",
+        "A25": "You'll be charged once your booking is confirmed by the host and you've gone through the payout process.",
+        "Q26": "Are there any additional fees besides the rental cost?",
+        "A26": "Yes. Additional fees may include VAT and delivery charges.",
+        "Q27": "Are there any hidden charges?",
+        "A27": "No. All applicable fees should be shown during the checkout process before you confirm your booking.",
+        "Q28": "Can I split payments across multiple cards?",
+        "A28": "No, you cannot, the payment must be processed from one card.",
+        "Q29": "How do I update my payment information?",
+        "A29": "Go to your account settings > Payment Methods and add or update your card or wallet information.",
+        "Q30": "How do refunds work if I cancel my booking?",
+        "A30": "Your money will be returned to you within 24 hours.",
+        "Q31": "Is insurance included in my rental?",
+        "A31": "Yes, insurance is included in your rental.",
+        "Q32": "What should I do if I get into an accident?",
+        "A32": "Ensure your safety, then contact emergency services if needed. Inform the host and customer services immediately and follow insurance claim procedures. Make sure you take pictures of the accident.",
+        "Q33": "What happens if the vehicle is stolen?",
+        "A33": "Report it to the police immediately and contact the host and customer services so that we document the incident.",
+        "Q34": "How do I file a damage claim?",
+        "A34": "Contact customer services through the app, provide photos and a description of the incident.",
+        "Q35": "Can I request vehicle delivery, or do I need to pick it up?",
+        "A35": "The host has the option to deliver the vehicle; some vehicles may have the delivery feature.",
+        "Q36": "What should I do if the vehicle was damaged before pickup?",
+        "A36": "Take clear photos of the damage and report it to the host and customer service immediately, before starting your trip.",
+        "Q37": "What happens if I return the vehicle late?",
+        "A37": "Late return fees may apply depending on how late the return is.",
+        "Q38": "Do I need to refuel the vehicle before returning it?",
+        "A38": "Yes. You should return the vehicle with the same fuel level it had at pickup, or additional charges may apply.",
+        "Q39": "What if the vehicle breaks down during my rental?",
+        "A39": "Pull over safely and contact the customer service team for assistance.",
+        "Q40": "How should I report any issues with the vehicle during my trip?",
+        "A40": "Contact our customer service team for support.",
+        "Q41": "Can I report a host for misconduct?",
+        "A41": "Yes. You can report any violations or poor behavior to the customer service team.",
+        "Q42": "What happens if I violate the platform's community guidelines?",
+        "A42": "The violation will be assessed by the admin team, and we will act accordingly in response.",
+        "Q43": "Can my account be suspended for poor behavior?",
+        "A43": "Policy violations and repeatedly receiving bad reviews may result in account suspension",
+        "Q44": "How can I improve my guest rating?",
+        "A44": "Communicate clearly, return the vehicle on time and in good condition, follow the guidelines, and treat the host and vehicle with respect."
+      }
+    }
+  },
+  "COMMUNITY_GUIDELINES_PAGE": {
+    "TITLE": "Community Guidelines",
+    "HEADER_P": "These guidelines aim to ensure a peer-to-peer car rental experience that is safe, respectful, and sustainable for all Cruiz users. They are based on shared mobility values that help reduce congestion, enhance accessibility, and lower environmental impact, while supporting economic growth and innovation.",
+    "CARDS": {
+      "PURPOSE_AND_VALUES": {
+        "TITLE": "Purpose and Values",
+        "P1": "Cruiz was created to empower individuals and communities through smart mobility. By sharing cars rather than owning more vehicles, we can reduce congestion, enhance accessibility and decrease the environmental footprint of transportation. These guidelines help us build a trusted, inclusive and sustainable community that aligns with Saudi Vision 2030's goals of smarter cities and economic diversification."
+      },
+      "RESPECT_AND_LAWFULNESS": {
+        "TITLE": "Respect and Lawfulness",
+        "L1_BOLD": "Abide by the law:",
+        "L1_DESC": "All users must obey local traffic laws and regulations. Peer-to-peer car-sharing thrives when participants respect road rules and legal requirements. Cruiz's partners emphasize innovation in cooperation with insurance providers and regulators to support economic growth and Vision 2030.",
+        "L2_BOLD": "Treat others with respect:",
+        "L2_DESC": "Discrimination, harassment, or abusive behaviour has no place on Cruiz. We expect hosts and guests to communicate courteously and resolve issues in good faith. Car-sharing is a community endeavour—mutual respect makes it work."
+      },
+      "TRUST_AND_ACCURACY": {
+        "TITLE": "Trust and Accuracy",
+        "L1_BOLD": "Provide honest listings:",
+        "L1_DESC": "Hosts should accurately describe and photograph their vehicles so guests know what they're booking. Cruiz lets guests filter by price, location and features; clear listings help everyone find the right match.",
+        "L2_BOLD": "Maintain your vehicle:",
+        "L2_DESC": "Hosts must keep their cars in safe, roadworthy condition. Because platforms like Cruiz are designed to enable individuals to earn additional income, owners have a responsibility to ensure vehicles meet safety standards."
+      },
+      "SAFETY_AND_INSURANCE": {
+        "TITLE": "Safety and Insurance",
+        "L1_BOLD": "Comprehensive protection:",
+        "L1_DESC": "Cruiz trips include comprehensive insurance. Hosts and guests must not circumvent these policies. Peer-to-peer car-sharing programs in Saudi Arabia offer customised insurance solutions in partnership with insurers, so always verify that coverage is active before and during each trip.",
+        "L2_BOLD": "Report incidents promptly:",
+        "L2_DESC": "If an accident or mechanical issue occurs, contact Cruiz support and the appropriate authorities immediately. Prompt reporting allows us to assist quickly and ensure everyone's safety."
+      },
+      "RESPONSIBILITIES_OF_HOSTS": {
+        "TITLE": "Responsibilities of Hosts",
+        "L1_BOLD": "Prepare the car:",
+        "L1_DESC": "Deliver the vehicle clean, fueled (or charged) and ready for use. While Cruiz makes bookings quick and easy, hosts should make sure the car meets the description and is fully functional.",
+        "L2_BOLD": "Verify eligibility:",
+        "L2_DESC": "Ensure that the guest has a valid driver's licence and meets Cruiz's eligibility requirements. Peer-to-peer car-sharing platforms rely on trust and proper verification.",
+        "L3_BOLD": "Be punctual:",
+        "L3_DESC": "Honour agreed pickup and drop-off times. Efficient scheduling helps maintain a seamless, multimodal transport system.",
+        "L4_BOLD": "No hidden listings:",
+        "L4_DESC": "Only list vehicles that are not simultaneously advertised on other rental platforms. Hosts must comply with Cruiz policies and local regulations when offering their cars."
+      },
+      "RESPONSIBILITIES_OF_GUESTS": {
+        "TITLE": "Responsibilities of Guests",
+        "L1_BOLD": "Respect the vehicle:",
+        "L1_DESC": "Treat the car as if it were your own. Do not tamper with, misuse or neglect the vehicle. Shared mobility helps reduce congestion and environmental impact—misuse undermines these benefits.",
+        "L2_BOLD": "Return on time:",
+        "L2_DESC": "Bring the car back at the agreed time and location, with the same level of fuel or charge. Timely returns help ensure efficient use of shared vehicles.",
+        "L3_BOLD": "Keep it clean:",
+        "L3_DESC": "Remove personal belongings and trash before returning the car. While normal dirt from weather and travel is expected, excessive mess may result in additional fees.",
+        "L4_BOLD": "Use authorized drivers only:",
+        "L4_DESC": "Only the person who booked the car and has been verified by Cruiz may drive it. Sharing the car with unauthorized drivers violates our policies and insurance agreements."
+      },
+      "SUSTAINABILITY": {
+        "TITLE": "Sustainability and Vision 2030",
+        "P1": "Cruiz supports Saudi Arabia's ambitions for sustainable urban mobility. The NEOM mobility strategy demonstrates how shared mobility, automation and electrification can create an efficient, multimodal transport system. By participating in Cruiz and following these guidelines, you contribute to a cleaner future and the Kingdom's Vision 2030 goals of economic diversification and reduced emissions."
+      },
+      "ECONOMIC_EMPOWERMENT": {
+        "TITLE": "Economic Empowerment",
+        "P1": "Car-sharing platforms enable hosts to generate additional income. Cruiz is committed to helping hosts succeed by providing a trusted marketplace, secure payments and support. In similar P2P platforms, hosts have collectively earned millions of Saudi Riyals. Respectful interactions and adherence to these guidelines ensure that everyone benefits fairly."
+      },
+      "REPORTING_ISSUES": {
+        "TITLE": "Reporting Issues and Feedback",
+        "P1": "If you encounter unsafe behaviour, policy violations or other concerns, contact Cruiz customer support promptly. We work closely with partners and insurers to address issues and continuously improve our platform. Your feedback helps us build a better, more innovative service for all.",
+        "P2": "By adhering to these community guidelines, you help ensure that Cruiz remains a trusted, safe and sustainable mobility solution. Thank you for being a part of our community."
+      }
+    }
+  },
+  "ABOUT_US_PAGE": {
+    "TITLE": "About Us",
+    "SECTIONS": {
+      "WHO_WE_ARE": {
+        "TITLE": "Who Are We",
+        "P1": "We 'Cruiz' are built by and for Saudi communities. Cruiz platform is a disruptive peer-to-peer car-sharing marketplace, offering car-rental services while aiming to change the traditional car-rental experience in Saudi Arabia. Inspired by pioneering P2P platforms, we built an app that lets people rent cars from their neighbors, skipping the rental counter and paperwork. As we grow, we will continue to innovate and expand our network across Saudi Arabia and the Middle East. The journey has just begun."
+      },
+      "WHAT_WE_DO": {
+        "TITLE": "What We Do",
+        "P1": "Cruiz will connect individuals willing to rent their vehicles with those who need convenient, flexible, and budget-friendly rental solutions for cars, creating an opportunity for vehicle owners to earn through their underutilized assets while giving the public a wide selection of cars available for rent. We combine secure technology, instant booking and self-check-in to make every trip effortless."
+      },
+      "OUR_VISION": {
+        "TITLE": "Our Vision",
+        "P1": "Our platform will fuel the sharing economy to advance community-based car rentals forward, thereby supporting the attainment of 2030 Vision goals on sustainability and economic diversification. By offering a digital platform that makes car-sharing simple and trustworthy, we hope to lead the way in building a smarter, more inclusive mobility landscape in the Gulf region."
+      }
+    }
+  }
+}
